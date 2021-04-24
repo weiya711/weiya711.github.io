@@ -12,7 +12,7 @@ PhD Student<br/>
 Department of Computer Science<br/>
 Stanford University<br/>
 Office: 306 Gates<br/>
-<a href="mailto:owhsu@stanford.edu">owhsu@stanford.edu</a><br/>
+<a href="mailto:owhsu@stanford.edu">owhsu [at] stanford [dot] edu</a><br/>
 <a href="/assets/owhsu-cv.pdf">Curriculum Vitae</a>
 </td>
 </table>
@@ -21,8 +21,10 @@ Office: 306 Gates<br/>
 I am a computer science PhD student at Stanford University advised by Professor 
 [Kunle Olukotun](https://profiles.stanford.edu/kunle-olukotun?tab=bio) 
 and Professor [Fredrik Kjolstad](http://fredrikbk.com). 
-I currently work on the [taco compiler](http://tensor-compiler.org) for computing
-sparse tensor algebra expressions. My broad research interests include computer 
+I currently work on mapping sparse tensor expressions to domain-specific
+hardware, architectures, and accelerators through the [taco
+compiler](http://tensor-compiler.org). My research interests also broadly include
+computer 
 architecture, computer and programming systems, compilers, 
 programming models and languages, and digital circuits/VLSI.
 
@@ -83,7 +85,10 @@ applications of silicon-photonics.
 </table>
 
 <h2 class="tableheading">Teaching</h2>
+Boop beep boop... Work in progress. Check again soon!
+
 <h2 class="tableheading">Projects</h2>
+Boop beep boop... Work in progress. Check again soon!
 
 <h2 class="tableheading">Press</h2>
 
