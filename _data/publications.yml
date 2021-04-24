@@ -1,0 +1,18 @@
+cleo19:
+  title: Ring Resonator Based Ultrasound Detection in a Zero-Change Advanced CMOS-SOI Process
+  abstract: "<p>
+    Optical ultrasound detection using microring resonators (MRRs) in a
+    zero-change 45nm CMOS-SOI electronic-photonic platform with high intrinsic
+    sensitivity of 39.6 f m/kPa and frequency response of 6MHz is reported.
+    </p>"
+  venue: "Conference on Lasers and Electro-Optics"
+  venuenote: "CLEO"
+  issue: "JW2A.78"
+  year: 2019
+  month: May 
+  authors:
+    - zarkos
+    - hsu
+    - stojanovic
+  pdf: /publications/cleo2019.pdf
+

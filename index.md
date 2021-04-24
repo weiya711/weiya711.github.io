@@ -1,0 +1,99 @@
+---
+title: Olivia Hsu
+layout: home
+---
+
+<table border="0" cellpadding="0">
+<td valign="top" style="min-width:140px;">
+<img src="/assets/owhsu.jpg" width="160">
+</td>
+<td valign="top">
+PhD Student<br/>
+Department of Computer Science<br/>
+Stanford University<br/>
+Office: 306 Gates<br/>
+<a href="mailto:owhsu@stanford.edu">owhsu@stanford.edu</a><br/>
+<a href="/assets/owhsu-cv.pdf">Curriculum Vitae</a>
+</td>
+</table>
+
+
+I am a computer science PhD student at Stanford University advised by Professor 
+[Kunle Olukotun](https://profiles.stanford.edu/kunle-olukotun?tab=bio) 
+and Professor [Fredrik Kjolstad](http://fredrikbk.com). 
+I currently work on the [taco compiler](http://tensor-compiler.org) for computing
+sparse tensor algebra expressions. My broad research interests include computer 
+architecture, computer and programming systems, compilers, 
+programming models and languages, and digital circuits/VLSI.
+
+I graduated from the University of California, Berkeley in 2019 with a degree
+in Electrical Engineering and Computer Science (EECS).  At Berkeley, I was
+fortunate enough to be advised by Professor [Vladimir
+Stojanovic](https://www2.eecs.berkeley.edu/Faculty/Homepages/vlada.html) and
+work with [Panagiotis
+Zarkos](https://www.linkedin.com/in/panagiotis-zarkos-0a51a7ba/) on novel
+applications of silicon-photonics.  
+
+<h2 class="tableheading">Publications</h2>
+
+<table border="0">
+  {% for pub_keyval in site.data.publications %}
+    <tr>
+      {%- assign pub = pub_keyval[1] -%}
+      <td>
+        <b><a href="{{pub_keyval[0]}}.html" style="color: #464646">{{ pub.title }}</a></b><br/>
+        {%- for author in pub.authors -%}
+          {%- if forloop.last == true and forloop.length > 1 %}
+            and
+          {%- endif %}
+          {%- if author == "hsu" %}
+            <font color="#000000">{{ site.data.authors[author].name }}</font>
+          {%- else %}
+            <a href="{{- site.data.authors[author].site -}}" style="color: #464646">{{ site.data.authors[author].name }}</a>
+          {%- endif -%}
+          {%- if forloop.last == false and forloop.length > 2 -%}
+            ,
+          {%- endif %}
+        {%- endfor -%}<br/>
+        <i>{{ pub.venue }}
+        {%- if pub.venuenote %}
+        ({{ pub.venuenote }})
+        {%- endif -%}
+        {%- if pub.volume -%}
+        , Volume {{ pub.volume }}
+        {%- endif -%}
+        {%- if pub.issue -%}
+        , Issue {{ pub.issue }}
+        {%- endif -%}
+        </i>, {{ pub.month }} {{ pub.year }}<br/>
+        {%- if pub.award -%}
+          <i><b>{{ pub.award }}</b></i><br/>
+        {%- endif -%}
+      </td>
+      <td valign="top" width="20">
+        {% if pub.pdf %}
+          <a href="{{ pub.pdf }}"><img src="/assets/pdf.png" alt="pdf" /></a>
+        {% endif %}
+        {% if pub.movie %}
+          <a href="{{ pub.movie }}"><img src="/assets/movie.png" alt="youtube" /></a>
+        {% endif %}
+      </td>
+    </tr>
+{% endfor %}
+</table>
+
+<h2 class="tableheading">Teaching</h2>
+<h2 class="tableheading">Projects</h2>
+
+<h2 class="tableheading">Press</h2>
+
+<table border="0">
+{%- for press_keyval in site.data.press %}
+  {%- assign press= press_keyval[1] -%}
+  <tr>
+  <td> 
+    <b><a href="{{press.url}}">{{press.title}}</a></b><br/>{{press.venue}}
+  </td>
+  </tr>
+{% endfor %}
+</table>
