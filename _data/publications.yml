@@ -16,3 +16,27 @@ cleo19:
     - stojanovic
   pdf: /publications/cleo2019.pdf
 
+vlsi2021:
+  title: Fully Integrated Electronic-Photonic Ultrasound Receiver Array for Endoscopic Imaging Applications in a Zero-Change 45nm CMOS-SOI Process
+  abstract: "<p>
+    This paper presents the first fully integrated 2-D array of electronic-photonic ultrasound sensors targeting low-power
+    miniaturized ultrasound probes for endoscopic applications. Fabricated in a zero-change 45nm CMOS-SOI technology this
+    Electronic-Photonic System on Chip (EPSoC), utilizes micro-ring resonators (MRR) as ultrasound sensors instead of the
+    traditional piezoelectric or capacitive micromachined transducers (PMUTs or CMUTs). The photonic nature of the sensor
+    enables remoting the power-hungry receive electronics outside the probe tip, lowering the power dissipation inside the human
+    body, eliminates the electrical cabling and reduces fiber count by 4x using wavelength division multiplexed (WDM) MRR
+    sensors coupled onto the same waveguide. The photonic sensing element demonstrates >30 MHz bandwidth, 7.3 mV/kPa
+    overall sensitivity, while consuming 0.43 mW of power
+    </p>"
+  venue: "VLSI Symposium"
+  year: 2021
+  month: June
+  authors: 
+    - zarkos
+    - buchbinder
+    - adamopoulos
+    - madhvapathy 
+    - hsu
+    - whinnery
+    - bhargava 
+    - stojanovic

@@ -49,7 +49,7 @@ applications of silicon-photonics.
             and
           {%- endif %}
           {%- if author == "hsu" %}
-            <font color="#000000">{{ site.data.authors[author].name }}</font>
+            <b><font color="#000000">{{ site.data.authors[author].name }}</font></b>
           {%- else %}
             <a href="{{- site.data.authors[author].site -}}" style="color: #464646">{{ site.data.authors[author].name }}</a>
           {%- endif -%}

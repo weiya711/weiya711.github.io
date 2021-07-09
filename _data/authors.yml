@@ -2,9 +2,18 @@ hsu:
   name: Olivia Hsu
   site: http://owhsu.com
 
+adamopoulos:
+  name: Christos Adamopoulos
+
 amarasinghe:
   name: Saman Amarasinghe
   site: http://people.csail.mit.edu/saman/
+
+bhargava:
+  name: Pavan Bhargava
+
+buchbinder:
+  name: Sidney Buchbinder
 
 chou:
   name: Stephen Chou
@@ -23,6 +32,9 @@ kjolstad:
 liu:
   name: Qiaoyi Liu
 
+madhvapathy:
+  name: Sarika Madhvapathy
+
 stojanovic:
   name: Vladimir Stojanovic
   side: https://www2.eecs.berkeley.edu/Faculty/Homepages/vlada.html
@@ -32,6 +44,9 @@ strange:
 
 wang:
   name: Ziheng Wang
+
+whinnery: 
+  name: Jake Whinnery
 
 wilson:
   name: Amalee Wilson
