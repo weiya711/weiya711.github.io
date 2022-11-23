@@ -1,6 +1,6 @@
 hsu:
   name: Olivia Hsu
-  site: http://owhsu.com
+  site: https://cs.stanford.edu/~owhsu
 
 adamopoulos:
   name: Christos Adamopoulos
@@ -11,19 +11,29 @@ amarasinghe:
 
 bhargava:
   name: Pavan Bhargava
+  site: https://www.linkedin.com/in/pavan-bhargava-691a3925/
 
 buchbinder:
   name: Sidney Buchbinder
+  site: https://www.linkedin.com/in/sidney-buchbinder-39682241/
 
 chou:
   name: Stephen Chou
   site: http://people.csail.mit.edu/s3chou
 
+emer:
+  name: Joel Emer
+  side: https://people.csail.mit.edu/emer/
+
 hanrahan:
   name: Pat Hanrahan
 
+henry:
+  name: Rawn Henry
+  site: https://www.linkedin.com/in/rawn-henry/
 horowitz:
   name: Mark Horowitz
+  site: http://www-vlsi.stanford.edu/~horowitz/
 
 kjolstad:
   name: Fredrik Kjolstad
@@ -35,25 +45,43 @@ liu:
 madhvapathy:
   name: Sarika Madhvapathy
 
+olukotun:
+  name: Kunle Olukotun
+  site: http://arsenalfc.stanford.edu/kunle/
+rucker: 
+  name: Alexander Rucker
+  site: https://www.linkedin.com/in/acrucker/
+
+sharma:
+  name: Ritvik Sharma
+  site: https://www.linkedin.com/in/ritvik-sharma-863090144/?originalSubdomain=in
+
 stojanovic:
   name: Vladimir Stojanovic
-  side: https://www2.eecs.berkeley.edu/Faculty/Homepages/vlada.html
+  site: https://www2.eecs.berkeley.edu/Faculty/Homepages/vlada.html
 
 strange:
   name: Maxwell Strange
-
-wang:
-  name: Ziheng Wang
+  site: https://www.linkedin.com/in/maxwell-strange-4b670369/
 
 whinnery: 
   name: Jake Whinnery
 
-wilson:
-  name: Amalee Wilson
-
+won:
+  name: Jaeyeon Won
+  site: https://www.linkedin.com/in/jaeyeon-won-9385a811a/
+  
 xu:
   name: Haoran Xu
+
+yadav:
+  name: Rohan Yadav
+  site: https://rohany.github.io/
 
 zarkos:
   name: Panagiotis Zarkos
   site: https://www.linkedin.com/in/panagiotis-zarkos-0a51a7ba/
+
+zhao:
+  name: Tian Zhao
+  site: https://scholar.google.com/citations?hl=en&user=B8pqstQAAAAJ&view_op=list_works

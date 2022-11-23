@@ -1,3 +1,104 @@
+arxiv2022sam: 
+  title: The Sparse Abstract Machine
+  abstract: "<p>
+    We propose the Sparse Abstract Machine (SAM), an intermediate representation
+    and abstract machine model for targeting sparse tensor algebra to
+    reconfigurable and fixed-function spatial dataflow accelerators. SAM defines a
+    streaming abstraction with sparse primitives that encompass a large space of
+    scheduled tensor algebra expressions. SAM dataflow graphs naturally separate
+    tensor formats from algorithms and is expressive enough to incorporate many
+    sparse-iteration and hardware-specific optimizations. We show an automatic
+    compilation technique from a high-level language to SAM and a set of hardware
+    primitives which implement it. We evaluate the generality and extensibility of
+    our sparse abstract machine, explore the performance space of sparse tensor
+    algebra optimizations using SAM, and provide an example implementation of our
+    SAM architecture.        
+    <p>"
+  venue: "Arxiv Preprint"
+  year: 2022
+  url: "https://arxiv.org/abs/2208.14610"
+  month: August
+  authors: 
+    - hsu
+    - strange
+    - won
+    - sharma
+    - olukotun
+    - emer
+    - horowitz
+    - kjolstad
+
+arxiv2022stardust: 
+  title: "Stardust: Compiling Sparse Tensor Algebra to a Reconfigurable Dataflow Architecture"
+  abstract: "<p>
+    We introduce Stardust, a compiler that compiles sparse tensor algebra to
+    reconfigurable dataflow architectures (RDAs). Stardust introduces new
+    user-provided data representation and scheduling language constructs for
+    mapping to resource-constrained accelerated architectures. Stardust uses
+    the information provided by these constructs to determine on-chip memory
+    placement and to lower to the Capstan RDA through a parallel-patterns
+    rewrite system that targets the Spatial programming model. The Stardust
+    compiler is implemented as a new compilation path inside the TACO
+    open-source system. Using cycle-accurate simulation, we demonstrate that
+    Stardust can generate more Capstan tensor operations than its authors had
+    implemented and that it results in 138× better performance than generated
+    CPU kernels and 41× better performance than generated GPU kernels.
+    <p>"
+  venue: "Arxiv Preprint"
+  year: 2022
+  month: August
+  url: "https://arxiv.org/abs/2211.03251"
+  authors: 
+    - hsu
+    - rucker
+    - zhao
+    - olukotun
+    - kjolstad
+
+oopsla2021:
+  title: Compilation of sparse array programming models
+  abstract: "<p>
+    This paper shows how to compile sparse array programming languages. A sparse
+    array programming language is an array programming language that supports
+    element-wise application, reduction, and broadcasting of arbitrary functions
+    over dense and sparse arrays with any fill value. Such a language has great
+    expressive power and can express sparse and dense linear and tensor algebra,
+    functions over images, exclusion and inclusion filters, and even graph
+    algorithms.
+  
+    Our compiler strategy generalizes prior work in the literature on sparse tensor
+    algebra compilation to support any function applied to sparse arrays, instead
+    of only addition and multiplication. To achieve this, we generalize the notion
+    of sparse iteration spaces beyond intersections and unions. These iteration
+    spaces are automatically derived by considering how algebraic properties
+    annotated onto functions interact with the fill values of the arrays. We then
+    show how to compile these iteration spaces to efficient code.
+    
+    When compared with two widely-used Python sparse array packages, our evaluation
+    shows that we generate built-in sparse array library features with a
+    performance of 1.4× to 53.7× when measured against PyData/Sparse for
+    user-defined functions and between 0.98× and 5.53× when measured against
+    SciPy/Sparse for sparse array slicing. Our technique outperforms PyData/Sparse
+    by 6.58× to 70.3×, and (where applicable) performs between 0.96× and 28.9× that
+    of a dense NumPy implementation, on end-to-end sparse array applications. We
+    also implement graph linear algebra kernels in our system with a performance of
+    between 0.56× and 3.50× compared to that of the hand-optimized
+    SuiteSparse:GraphBLAS library.
+    <p>"
+  venue: "Proceedings of the ACM on Programming Languages"
+  year: 2021
+  issue: OOPSLA
+  volume: 5
+  month: October
+  authors:
+    - henry
+    - hsu
+    - yadav
+    - chou
+    - olukotun
+    - amarasinghe
+    - kjolstad
+
 vlsi2021:
   title: Fully Integrated Electronic-Photonic Ultrasound Receiver Array for Endoscopic Imaging Applications in a Zero-Change 45nm CMOS-SOI Process
   abstract: "<p>
@@ -44,7 +145,7 @@ cleo2021:
     - bhargava 
     - stojanovic
 
-cleo19:
+cleo2019:
   title: Ring Resonator Based Ultrasound Detection in a Zero-Change Advanced CMOS-SOI Process
   abstract: "<p>
     Optical ultrasound detection using microring resonators (MRRs) in a

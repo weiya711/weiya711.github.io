@@ -27,6 +27,11 @@ tags: publication
     <p><a href="{{ pub.pdf }}"><img src="/assets/pdf.png" alt="pdf"/></a></p>
     {%- endif -%} 
 
+    {% if pub.url %}
+    <h2>Article</h2>
+    <p><a href="{{ pub.url }}">Article URL</a></p>
+    {%- endif -%} 
+
     {%- if pub.embeddedmovie -%}
     <h2>Movie</h2>
     {{- pub.embeddedmovie -}}
