@@ -139,6 +139,8 @@ oopsla2021:
     - olukotun
     - amarasinghe
     - kjolstad
+  movie: https://youtu.be/sY_jEfaP8f4 
+  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/sY_jEfaP8f4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
 vlsi2021:
   title: Fully Integrated Electronic-Photonic Ultrasound Receiver Array for Endoscopic Imaging Applications in a Zero-Change 45nm CMOS-SOI Process
