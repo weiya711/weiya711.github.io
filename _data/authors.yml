@@ -31,6 +31,7 @@ hanrahan:
 henry:
   name: Rawn Henry
   site: https://www.linkedin.com/in/rawn-henry/
+
 horowitz:
   name: Mark Horowitz
   site: http://www-vlsi.stanford.edu/~horowitz/
@@ -38,6 +39,9 @@ horowitz:
 kjolstad:
   name: Fredrik Kjolstad
   site: http://fredrikbk.com
+
+kohli:
+  name: Sumer Kohli
 
 liu:
   name: Qiaoyi Liu
@@ -48,6 +52,14 @@ madhvapathy:
 olukotun:
   name: Kunle Olukotun
   site: http://arsenalfc.stanford.edu/kunle/
+
+ramachandran:
+  name: Neelesh Ramachandran
+
+ranade:
+  name: Gireeja Ranade
+  site: http://people.eecs.berkeley.edu/~gireeja/
+
 rucker: 
   name: Alexander Rucker
   site: https://www.linkedin.com/in/acrucker/
@@ -63,6 +75,12 @@ stojanovic:
 strange:
   name: Maxwell Strange
   site: https://www.linkedin.com/in/maxwell-strange-4b670369/
+
+tudor: 
+  name: Ana Tudor
+
+tumushabe:
+  name: Gloria Tumushabe
 
 whinnery: 
   name: Jake Whinnery
