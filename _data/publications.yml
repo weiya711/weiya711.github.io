@@ -98,6 +98,9 @@ oopsla2021:
     - olukotun
     - amarasinghe
     - kjolstad
+  url: "https://dl-acm-org.stanford.idm.oclc.org/doi/abs/10.1145/3485505"
+  pdf: /publications/oopsla2021.pdf
+  appendix: /publications/oopsla2021_appendix.pdf
 
 vlsi2021:
   title: Fully Integrated Electronic-Photonic Ultrasound Receiver Array for Endoscopic Imaging Applications in a Zero-Change 45nm CMOS-SOI Process
