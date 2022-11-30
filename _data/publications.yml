@@ -1,3 +1,44 @@
+sigcse2023:
+  title: Inclusive study group formation at scale
+  abstract: "<p>
+    Underrepresented students face many significant challenges in their
+    education. In particular, they often have a harder time than their peers from
+    majority groups in building long-term high-quality study groups. This
+    challenge is exacerbated in remote-learning scenarios, where students are
+    unable to meet face-to-face and must rely on pre-existing networks for social
+    support.
+  
+    We present a scalable system that removes structural obstacles faced by
+    underrepresented students and supports all students in building inclusive and
+    flexible study groups. One of our main goals is to make the usually informal
+    and unstructured process of finding study groups for homework more equitable by
+    providing a uniform but lightweight structure. We aim to provide students from
+    underrepresented groups an experience that is similar in quality to that of
+    students from majority groups. Our process is unique in that it allows students
+    the opportunity to request group reassignments during the semester if they
+    wish. Unlike other collaboration tools our system is not mandatory and does not
+    use peer-evaluation.
+    
+    We trialed our approach in a 1000+ student introductory Engineering and
+    Computer Science course that was conducted entirely online during the COVID-19
+    pandemic. We find that students from underrepresented backgrounds were more
+    likely to ask for group-matching support compared to students from majority
+    groups. At the same time, underrepresented students that we matched into study
+    groups had group experiences that were comparable to students we matched from
+    majority groups. B-range students in high-comfort and high-activity groups had
+    improved learning outcomes.
+    <p>"
+  venue: "Special Interest Group Computer Science Education (SIGCSE) Technical Symposium"
+  year: 2023
+  month: March
+  authors: 
+    - kohli
+    - ramachandran
+    - tudor
+    - tumushabe
+    - hsu
+    - ranade
+
 arxiv2022sam: 
   title: The Sparse Abstract Machine
   abstract: "<p>
@@ -46,7 +87,7 @@ arxiv2022stardust:
     <p>"
   venue: "Arxiv Preprint"
   year: 2022
-  month: August
+  month: November
   url: "https://arxiv.org/abs/2211.03251"
   authors: 
     - hsu
@@ -101,6 +142,8 @@ oopsla2021:
   url: "https://dl-acm-org.stanford.idm.oclc.org/doi/abs/10.1145/3485505"
   pdf: /publications/oopsla2021.pdf
   appendix: /publications/oopsla2021_appendix.pdf
+  movie: https://youtu.be/sY_jEfaP8f4 
+  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/sY_jEfaP8f4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
 vlsi2021:
   title: Fully Integrated Electronic-Photonic Ultrasound Receiver Array for Endoscopic Imaging Applications in a Zero-Change 45nm CMOS-SOI Process
