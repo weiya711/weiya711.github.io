@@ -22,14 +22,19 @@ tags: publication
     <h2>Abstract</h2>
     <p>{{ pub.abstract }}</p>
 
+    {% if pub.url %}
+    <h2>Article</h2>
+    <p><a href="{{ pub.url }}">Article URL</a></p>
+    {%- endif -%} 
+
     {% if pub.pdf %}
     <h2>Article</h2>
     <p><a href="{{ pub.pdf }}"><img src="/assets/pdf.png" alt="pdf"/></a></p>
     {%- endif -%} 
 
-    {% if pub.url %}
-    <h2>Article</h2>
-    <p><a href="{{ pub.url }}">Article URL</a></p>
+    {% if pub.appendix %}
+    <h2>Appendix</h2>
+    <p><a href="{{ pub.appendix }}"><img src="/assets/pdf.png" alt="pdf"/></a></p>
     {%- endif -%} 
 
     {%- if pub.embeddedmovie -%}

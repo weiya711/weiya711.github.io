@@ -139,6 +139,9 @@ oopsla2021:
     - olukotun
     - amarasinghe
     - kjolstad
+  url: "https://dl-acm-org.stanford.idm.oclc.org/doi/abs/10.1145/3485505"
+  pdf: /publications/oopsla2021.pdf
+  appendix: /publications/oopsla2021_appendix.pdf
   movie: https://youtu.be/sY_jEfaP8f4 
   embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/sY_jEfaP8f4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 

@@ -11,7 +11,7 @@ layout: home
 PhD Student<br/>
 Department of Computer Science<br/>
 Stanford University<br/>
-Office: 306 Gates<br/>
+Office: 494 Gates<br/>
 <a href="mailto:owhsu@stanford.edu">owhsu [at] stanford [dot] edu</a><br/>
 <a href="/assets/owhsu-cv.pdf">Curriculum Vitae</a>
 </td>
@@ -85,7 +85,18 @@ applications of silicon-photonics.
 </table>
 
 <h2 class="tableheading">Teaching</h2>
-Boop beep boop... Work in progress. Check again soon!
+<table border="0">
+{%- for teaching_keyval in site.data.teaching %}
+  {%- assign teaching= teaching_keyval[1] -%}
+  <tr>
+  <td> 
+    <b><a
+	href="{{teaching.url}}">{{teaching.title}}</a></b><br/>{{teaching.role}}
+	<br/>{{teaching.month}} {{teaching.year}}, {{teaching.venue}}
+  </td>
+  </tr>
+{% endfor %}
+</table>
 
 <h2 class="tableheading">Projects</h2>
 Boop beep boop... Work in progress. Check again soon!
