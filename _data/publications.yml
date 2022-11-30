@@ -169,6 +169,7 @@ vlsi2021:
     - whinnery
     - bhargava 
     - stojanovic
+  url: "https://ieeexplore.ieee.org/document/9492412"
 
 cleo2021:
   title: Monolithically Integrated Electronic-Photonic Ultrasound Receiver Using Microring Resonator
@@ -190,6 +191,7 @@ cleo2021:
     - whinnery
     - bhargava 
     - stojanovic
+  pdf: /publications/cleo2021.pdf
 
 cleo2019:
   title: Ring Resonator Based Ultrasound Detection in a Zero-Change Advanced CMOS-SOI Process

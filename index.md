@@ -74,7 +74,9 @@ applications of silicon-photonics.
       </td>
       <td valign="top" width="20">
         {% if pub.pdf %}
-          <a href="{{ pub.pdf }}"><img src="/assets/pdf.png" alt="pdf" /></a>
+            <a href="{{ pub.pdf }}"><img src="/assets/pdf.png" alt="pdf" /></a>
+	{% elsif pub.url %}
+            <a href="{{ pub.url }}"><img src="/assets/pdf.png" alt="pdf" /></a>
         {% endif %}
         {% if pub.movie %}
           <a href="{{ pub.movie }}"><img src="/assets/movie.png" alt="youtube" /></a>
