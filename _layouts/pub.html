@@ -45,6 +45,9 @@ tags: publication
     <h2>BibTeX</h2>
     <code>
       <pre>
+    {%- if pub.bibtex -%}
+    {{- pub.bibtex -}}
+    {%- else -%}
 @article{
 {{- pub.authors[0] -}}
 {{- pub.year -}}
@@ -66,6 +69,7 @@ tags: publication
   year={ {{- pub.year -}} },
   month={ {{- pub.month -}} }
 }
+    {%- endif -%}
       </pre>
     </code>
 

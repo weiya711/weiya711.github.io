@@ -13,10 +13,10 @@ asplos2023:
     our sparse abstract machine, explore the performance space of sparse tensor
     algebra optimizations using SAM, and provide an example implementation of our
     SAM architecture.        
-    <p>"
+    </p>"
   venue: "accepted in International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)"
   year: 2023
-  url: "https://arxiv.org/abs/2208.14610"
+  pdf: /publications/asplos2023-sam.pdf
   month: March
   authors: 
     - hsu
@@ -27,6 +27,8 @@ asplos2023:
     - emer
     - horowitz
     - kjolstad
+  bibtex: " In Progress
+"
 
 sigcse2023:
   title: Inclusive study group formation at scale
@@ -57,7 +59,7 @@ sigcse2023:
     groups had group experiences that were comparable to students we matched from
     majority groups. B-range students in high-comfort and high-activity groups had
     improved learning outcomes.
-    <p>"
+    </p>"
   venue: "Special Interest Group Computer Science Education Technical Symposium (SIGCSE TS)"
   year: 2023
   month: March
@@ -69,6 +71,46 @@ sigcse2023:
     - tumushabe
     - hsu
     - ranade
+  bibtex: "
+    @inproceedings{kohli2023sigcse,
+    <br>    author = {Kohli, Sumer and Ramachandran, Neelesh and Tudor, Ana and
+    <br>    Tumushabe, Gloria and Hsu, Olivia and Ranade, Gireeja},
+    <br>    title = {Inclusive Study Group Formation at Scale},
+    <br>    year = {2023},
+    <br>    isbn = {9781450394314},
+    <br>    publisher = {Association for Computing Machinery},
+    <br>    address = {New York, NY, USA},
+    <br>    url = {https://doi-org.stanford.idm.oclc.org/10.1145/3545945.3569885},
+    <br>    doi = {10.1145/3545945.3569885},
+    <br>    abstract = {Underrepresented students face many significant challenges in
+    <br>    their education. In particular, they often have a harder time than their peers
+    <br>    from majority groups in building long-term high-quality study groups. This
+    <br>    challenge is exacerbated in remote-learning scenarios, where students are
+    <br>    unable to meet face-to-face and must rely on pre-existing networks for social
+    <br>    support.We present a scalable system that removes structural obstacles faced by
+    <br>    underrepresented students and supports all students in building inclusive and
+    <br>    flexible study groups. One of our main goals is to make the traditionally
+    <br>    informal and unstructured process of finding study groups for homework more
+    <br>    equitable by providing a uniform but lightweight structure. We aim to provide
+    <br>    students from underrepresented groups an experience that is similar in quality
+    <br>    to that of students from majority groups. Our process is unique in that it
+    <br>    allows students the opportunity to request group reassignments during the
+    <br>    semester if they wish. Unlike other collaboration tools our system is not
+    <br>    mandatory and does not use peer-evaluation.We trialed our approach in a 1000+
+    <br>    student introductory Engineering and Computer Science course that was conducted
+    <br>    entirely online during the COVID-19 pandemic. We find that students from
+    <br>    underrepresented backgrounds were more likely to ask for group-matching support
+    <br>    compared to students from majority groups. At the same time, underrepresented
+    <br>    students that we matched into study groups had group experiences that were
+    <br>    comparable to students we matched from majority groups. B-range students in
+    <br>    high-comfort and high-quality groups had improved learning outcomes.},
+    <br>    booktitle = {Proceedings of the 54th ACM Technical Symposium on Computer Science Education V. 1},
+    <br>    pages = {11–17},
+    <br>    numpages = {7},
+    <br>    keywords = {remote learning, group formation, study groups, education},
+    <br>    location = {Toronto ON, Canada},
+    <br>    series = {SIGCSE 2023}
+    }"
 
 arxiv2022baco:
   title: "BaCO: A Fast and Portable Bayesian Compiler Optimization Framework"
@@ -85,7 +127,7 @@ arxiv2022baco:
     these domains, BaCO outperforms current state-of-the-art autotuners by
     delivering on average 1.39x-1.89x faster code with a tiny search budget, and
     BaCO is able to reach expert-level performance 2.89x-8.77x faster.
-    <p>"
+    </p>"
   venue: "Arxiv Preprint"
   year: 2022
   month: December
@@ -101,6 +143,17 @@ arxiv2022baco:
     - steuwer
     - olukotun
     - nardi
+  bibtex: "
+    @misc{hellsten2022baco,
+    <br>      title={BaCO: A Fast and Portable Bayesian Compiler Optimization Framework}, 
+    <br>      author={Erik Hellsten and Artur Souza and Johannes Lenfers and Rubens
+    <br>      Lacouture and Olivia Hsu and Adel Ejjeh and Fredrik Kjolstad and Michel Steuwer
+    <br>      and Kunle Olukotun and Luigi Nardi},
+    <br>      year={2022},
+    <br>      eprint={2212.11142},
+    <br>      archivePrefix={arXiv},
+    <br>      primaryClass={cs.PL}
+    }"
 
 arxiv2022stardust: 
   title: "Stardust: Compiling Sparse Tensor Algebra to a Reconfigurable Dataflow Architecture"
@@ -117,7 +170,7 @@ arxiv2022stardust:
     Stardust can generate more Capstan tensor operations than its authors had
     implemented and that it results in 138× better performance than generated
     CPU kernels and 41× better performance than generated GPU kernels.
-    <p>"
+    </p>"
   venue: "Arxiv Preprint"
   year: 2022
   month: November
@@ -128,9 +181,18 @@ arxiv2022stardust:
     - zhao
     - olukotun
     - kjolstad
+  bibtex: "
+    @misc{hsu2022stardust,
+    <br>      title={Stardust: Compiling Sparse Tensor Algebra to a Reconfigurable Dataflow Architecture}, 
+    <br>      author={Olivia Hsu and Alexander Rucker and Tian Zhao and Kunle Olukotun and Fredrik Kjolstad},
+    <br>      year={2022},
+    <br>      eprint={2211.03251},
+    <br>      archivePrefix={arXiv},
+    <br>      primaryClass={cs.PL}
+    }"
 
 oopsla2021:
-  title: Compilation of sparse array programming models
+  title: "Compilation of sparse array programming models"
   abstract: "<p>
     This paper shows how to compile sparse array programming languages. A sparse
     array programming language is an array programming language that supports
@@ -158,7 +220,7 @@ oopsla2021:
     also implement graph linear algebra kernels in our system with a performance of
     between 0.56× and 3.50× compared to that of the hand-optimized
     SuiteSparse:GraphBLAS library.
-    <p>"
+    </p>"
   venue: "Proceedings of the ACM on Programming Languages"
   year: 2021
   issue: OOPSLA
@@ -177,6 +239,49 @@ oopsla2021:
   appendix: /publications/oopsla2021_appendix.pdf
   movie: https://youtu.be/sY_jEfaP8f4 
   embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/sY_jEfaP8f4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+  bibtex: "
+    @article{henry2021oopsla,
+    <br>    author = {Henry, Rawn and Hsu, Olivia and Yadav, Rohan and Chou, Stephen and Olukotun, Kunle and Amarasinghe, Saman and Kjolstad, Fredrik},
+    <br>    title = {Compilation of Sparse Array Programming Models},
+    <br>    year = {2021},
+    <br>    issue_date = {October 2021},
+    <br>    publisher = {Association for Computing Machinery},
+    <br>    address = {New York, NY, USA},
+    <br>    volume = {5},
+    <br>    number = {OOPSLA},
+    <br>    url = {https://doi-org.stanford.idm.oclc.org/10.1145/3485505},
+    <br>    doi = {10.1145/3485505},
+    <br>    abstract = {This paper shows how to compile sparse array programming languages.
+    <br>    A sparse array programming language is an array programming language that
+    <br>    supports element-wise application, reduction, and broadcasting of arbitrary
+    <br>    functions over dense and sparse arrays with any fill value. Such a language has
+    <br>    great expressive power and can express sparse and dense linear and tensor
+    <br>    algebra, functions over images, exclusion and inclusion filters, and even graph
+    <br>    algorithms. Our compiler strategy generalizes prior work in the literature on
+    <br>    sparse tensor algebra compilation to support any function applied to sparse
+    <br>    arrays, instead of only addition and multiplication. To achieve this, we
+    <br>    generalize the notion of sparse iteration spaces beyond intersections and
+    <br>    unions. These iteration spaces are automatically derived by considering how
+    <br>    algebraic properties annotated onto functions interact with the fill values of
+    <br>    the arrays. We then show how to compile these iteration spaces to efficient
+    <br>    code. When compared with two widely-used Python sparse array packages, our
+    <br>    evaluation shows that we generate built-in sparse array library features with a
+    <br>    performance of 1.4x to 53.7x when measured against
+    <br>    PyData/Sparse for user-defined functions and between 0.98x and
+    <br>    5.53x when measured against SciPy/Sparse for sparse array slicing.
+    <br>    Our technique outperforms PyData/Sparse by 6.58x to
+    <br>    70.3x, and (where applicable) performs between 0.96x and
+    <br>    28.9x that of a dense NumPy implementation, on end-to-end sparse
+    <br>    array applications. We also implement graph linear algebra kernels in our
+    <br>    system with a performance of between 0.56x and 3.50x
+    <br>    compared to that of the hand-optimized SuiteSparse:GraphBLAS library.},
+    <br>    journal = {Proc. ACM Program. Lang.},
+    <br>    month = {oct},
+    <br>    articleno = {128},
+    <br>    numpages = {29},
+    <br>    keywords = {Sparse Arrays, Sparse Array Programming, Compilation}
+    }"
+
 
 vlsi2021:
   title: Fully Integrated Electronic-Photonic Ultrasound Receiver Array for Endoscopic Imaging Applications in a Zero-Change 45nm CMOS-SOI Process
@@ -203,6 +308,20 @@ vlsi2021:
     - bhargava 
     - stojanovic
   url: "https://ieeexplore.ieee.org/document/9492412"
+  bibtex: "
+    @inproceedings{zarkos2021vlsi,
+    <br>    author={Zarkos, Panagiotis and Buchbinder, Sidney and Adamopoulos,
+    <br>    Christos and Madhvapathy, Sarika and Hsu, Olivia and Whinnery, Jake and
+    <br>    Bhargava, Pavan and Stojanović, Vladimir},
+    <br>    booktitle={2021 Symposium on VLSI Circuits}, 
+    <br>    title={Fully Integrated Electronic-Photonic Ultrasound Receiver Array for
+    <br>    Endoscopic Imaging Applications in a Zero-Change 45nm CMOS-SOI Process}, 
+    <br>    year={2021},
+    <br>    volume={},
+    <br>    number={},
+    <br>    pages={1-2},
+    <br>    doi={10.23919/VLSICircuits52068.2021.9492412}
+    }"
 
 cleo2021:
   title: Monolithically Integrated Electronic-Photonic Ultrasound Receiver Using Microring Resonator
@@ -225,6 +344,17 @@ cleo2021:
     - bhargava 
     - stojanovic
   pdf: /publications/cleo2021.pdf
+  bibtex: "
+    @INPROCEEDINGS{zarkos2021cleo,
+    <br>    author={Zarkos, Panagiotis and Buchbinder, Sidney and Adamopoulos, Christos and Hsu, Olivia and Madhvapathy, Sarika and Whinnery, Jake and Bhargava, Pavan and Stojanović, Vladimir},
+    <br>    booktitle={2021 Conference on Lasers and Electro-Optics (CLEO)}, 
+    <br>    title={Monolithically Integrated Electronic-Photonic Ultrasound Receiver Using Microring Resonator}, 
+    <br>    year={2021},
+    <br>    volume={},
+    <br>    number={},
+    <br>    pages={1-2},
+    <br>    doi={}
+    }"
 
 cleo2019:
   title: Ring Resonator Based Ultrasound Detection in a Zero-Change Advanced CMOS-SOI Process
@@ -243,4 +373,15 @@ cleo2019:
     - hsu
     - stojanovic
   pdf: /publications/cleo2019.pdf
+  bibtex: "
+    @INPROCEEDINGS{zarkos2019cleo,
+    <br>    author={Zarkos, Panagiotis and Hsu, Olivia and Stojanović, Vladimir},
+    <br>    booktitle={2019 Conference on Lasers and Electro-Optics (CLEO)}, 
+    <br>    title={Ring Resonator Based Ultrasound Detection in a Zero-Change Advanced CMOS-SOI Process}, 
+    <br>    year={2019},
+    <br>    volume={},
+    <br>    number={},
+    <br>    pages={1-2},
+    <br>    doi={10.1364/CLEO_AT.2019.JW2A.78}
+    }"
 

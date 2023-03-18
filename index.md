@@ -14,6 +14,32 @@ Stanford University<br/>
 Office: 494 Gates<br/>
 <a href="mailto:owhsu@stanford.edu">owhsu [at] stanford [dot] edu</a><br/>
 <a href="/assets/owhsu-cv.pdf">Curriculum Vitae</a>
+<div id=siteUpdate> </div>
+<script>
+const desiredRepo = "weiya711.github.io"
+const monthNames = ["January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"
+];
+
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    let repos = JSON.parse(this.responseText);
+    repos.forEach((repo)=>{
+      if (repo.name == desiredRepo)
+      {
+        var lastUpdated = new Date(repo.pushed_at);
+        var day = lastUpdated.getUTCDate();
+        var month = lastUpdated.getUTCMonth();
+        var year = lastUpdated.getUTCFullYear();
+        siteUpdate.innerHTML += (`<em>Site Last Updated ${monthNames[month]} ${year}</em><br>`);
+      }
+    });
+  }
+};
+xhttp.open("GET", "https://api.github.com/users/weiya711/repos", true);
+xhttp.send();
+</script>
 </td>
 </table>
 
