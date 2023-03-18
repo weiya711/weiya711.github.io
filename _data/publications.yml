@@ -1,3 +1,33 @@
+asplos2023: 
+  title: The Sparse Abstract Machine
+  abstract: "<p>
+    We propose the Sparse Abstract Machine (SAM), an intermediate representation
+    and abstract machine model for targeting sparse tensor algebra to
+    reconfigurable and fixed-function spatial dataflow accelerators. SAM defines a
+    streaming abstraction with sparse primitives that encompass a large space of
+    scheduled tensor algebra expressions. SAM dataflow graphs naturally separate
+    tensor formats from algorithms and is expressive enough to incorporate many
+    sparse-iteration and hardware-specific optimizations. We show an automatic
+    compilation technique from a high-level language to SAM and a set of hardware
+    primitives which implement it. We evaluate the generality and extensibility of
+    our sparse abstract machine, explore the performance space of sparse tensor
+    algebra optimizations using SAM, and provide an example implementation of our
+    SAM architecture.        
+    <p>"
+  venue: "accepted in International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)"
+  year: 2023
+  url: "https://arxiv.org/abs/2208.14610"
+  month: March
+  authors: 
+    - hsu
+    - strange
+    - sharma
+    - won
+    - olukotun
+    - emer
+    - horowitz
+    - kjolstad
+
 sigcse2023:
   title: Inclusive study group formation at scale
   abstract: "<p>
@@ -28,9 +58,10 @@ sigcse2023:
     majority groups. B-range students in high-comfort and high-activity groups had
     improved learning outcomes.
     <p>"
-  venue: "Special Interest Group Computer Science Education (SIGCSE) Technical Symposium"
+  venue: "Special Interest Group Computer Science Education Technical Symposium (SIGCSE TS)"
   year: 2023
   month: March
+  pdf: /publications/sigcse23-study-group.pdf
   authors: 
     - kohli
     - ramachandran
@@ -39,35 +70,37 @@ sigcse2023:
     - hsu
     - ranade
 
-arxiv2022sam: 
-  title: The Sparse Abstract Machine
+arxiv2022baco:
+  title: "BaCO: A Fast and Portable Bayesian Compiler Optimization Framework"
   abstract: "<p>
-    We propose the Sparse Abstract Machine (SAM), an intermediate representation
-    and abstract machine model for targeting sparse tensor algebra to
-    reconfigurable and fixed-function spatial dataflow accelerators. SAM defines a
-    streaming abstraction with sparse primitives that encompass a large space of
-    scheduled tensor algebra expressions. SAM dataflow graphs naturally separate
-    tensor formats from algorithms and is expressive enough to incorporate many
-    sparse-iteration and hardware-specific optimizations. We show an automatic
-    compilation technique from a high-level language to SAM and a set of hardware
-    primitives which implement it. We evaluate the generality and extensibility of
-    our sparse abstract machine, explore the performance space of sparse tensor
-    algebra optimizations using SAM, and provide an example implementation of our
-    SAM architecture.        
+    We introduce the Bayesian Compiler Optimization framework (BaCO), a general
+    purpose autotuner for modern compilers targeting CPUs, GPUs, and FPGAs. BaCO
+    provides the flexibility needed to handle the requirements of modern autotuning
+    tasks. Particularly, it deals with permutation, ordered, and continuous
+    parameter types along with both known and unknown parameter constraints. To
+    reason about these parameter types and efficiently deliver high-quality code,
+    BaCO uses Bayesian optimization algorithms specialized towards the autotuning
+    domain. We demonstrate BaCO's effectiveness on three modern compiler systems:
+    TACO, RISE & ELEVATE, and HPVM2FPGA for CPUs, GPUs, and FPGAs respectively. For
+    these domains, BaCO outperforms current state-of-the-art autotuners by
+    delivering on average 1.39x-1.89x faster code with a tiny search budget, and
+    BaCO is able to reach expert-level performance 2.89x-8.77x faster.
     <p>"
   venue: "Arxiv Preprint"
   year: 2022
-  url: "https://arxiv.org/abs/2208.14610"
-  month: August
-  authors: 
+  month: December
+  url: "https://arxiv.org/abs/2212.11142"
+  authors:
+    - hellsten
+    - souza
+    - lenfers
+    - lacouture
     - hsu
-    - strange
-    - won
-    - sharma
-    - olukotun
-    - emer
-    - horowitz
+    - ejjeh
     - kjolstad
+    - steuwer
+    - olukotun
+    - nardi
 
 arxiv2022stardust: 
   title: "Stardust: Compiling Sparse Tensor Algebra to a Reconfigurable Dataflow Architecture"

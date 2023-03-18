@@ -25,12 +25,18 @@ emer:
   name: Joel Emer
   side: https://people.csail.mit.edu/emer/
 
+ejjeh:
+  name: Adel Ejjeh
+
 hanrahan:
   name: Pat Hanrahan
 
 henry:
   name: Rawn Henry
   site: https://www.linkedin.com/in/rawn-henry/
+
+hellsten:
+  name: Erik Hellsten
 
 horowitz:
   name: Mark Horowitz
@@ -42,6 +48,14 @@ kjolstad:
 
 kohli:
   name: Sumer Kohli
+  site: https://skohli.dev/
+
+lacouture:
+  name: Rubens Lacouture
+  site: https://www.linkedin.com/in/lrubens/
+
+lenfers:
+  name: Johannes Lenfers
 
 liu:
   name: Qiaoyi Liu
@@ -49,12 +63,17 @@ liu:
 madhvapathy:
   name: Sarika Madhvapathy
 
+nardi:
+  name: Luigi Nardi
+  side: https://cs.lth.se/luigi-nardi/
+
 olukotun:
   name: Kunle Olukotun
   site: http://arsenalfc.stanford.edu/kunle/
 
 ramachandran:
   name: Neelesh Ramachandran
+  site: https://www.neeleshramachandran.com/
 
 ranade:
   name: Gireeja Ranade
@@ -68,6 +87,10 @@ sharma:
   name: Ritvik Sharma
   site: https://www.linkedin.com/in/ritvik-sharma-863090144/?originalSubdomain=in
 
+steuwer:
+  name: Michel Steuwer
+  site: https://michel.steuwer.info/
+
 stojanovic:
   name: Vladimir Stojanovic
   site: https://www2.eecs.berkeley.edu/Faculty/Homepages/vlada.html
@@ -76,11 +99,16 @@ strange:
   name: Maxwell Strange
   site: https://www.linkedin.com/in/maxwell-strange-4b670369/
 
+souza:
+  name: Artur Souza
+
 tudor: 
   name: Ana Tudor
+  site: https://www.linkedin.com/in/ana-tudor/
 
 tumushabe:
   name: Gloria Tumushabe
+  site: https://www.linkedin.com/in/gloria-tumushabe/
 
 whinnery: 
   name: Jake Whinnery
