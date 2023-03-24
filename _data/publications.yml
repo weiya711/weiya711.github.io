@@ -14,7 +14,7 @@ asplos2023:
     algebra optimizations using SAM, and provide an example implementation of our
     SAM architecture.        
     </p>"
-  venue: "accepted in International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)"
+  venue: "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)"
   year: 2023
   pdf: /publications/asplos2023-sam.pdf
   month: March
@@ -27,8 +27,63 @@ asplos2023:
     - emer
     - horowitz
     - kjolstad
-  bibtex: " In Progress
-"
+  bibtex: "@inproceedings{hsu2023asplos,
+    <br>    author = {Hsu, Olivia and Strange, Maxwell and Sharma, Ritvik and
+    <br>    Won, Jaeyeon and Olukotun, Kunle and Emer, Joel S. and Horowitz, Mark A. and
+    <br>    Kj\\o{}lstad, Fredrik},
+    <br>    title = {The Sparse Abstract Machine},
+    <br>    year = {2023},
+    <br>    isbn = {9781450399180},
+    <br>    publisher = {Association for Computing Machinery},
+    <br>    address = {New York, NY, USA},
+    <br>    url = {https://doi.org/10.1145/3582016.3582051},
+    <br>    doi = {10.1145/3582016.3582051},
+    <br>    abstract = {We propose the Sparse Abstract Machine (SAM), an abstract machine
+    <br>    model for targeting sparse tensor algebra to reconfigurable and fixed-function
+    <br>    spatial dataflow accelerators. SAM defines a streaming dataflow abstraction
+    <br>    with sparse primitives that encompass a large space of scheduled tensor algebra
+    <br>    expressions. SAM dataflow graphs naturally separate tensor formats from
+    <br>    algorithms and are expressive enough to incorporate arbitrary iteration
+    <br>    orderings and many hardware-specific optimizations. We also present Custard, a
+    <br>    compiler from a high-level language to SAM that demonstrates SAM's usefulness
+    <br>    as an intermediate representation. We automatically bind from SAM to a
+    <br>    streaming dataflow simulator. We evaluate the generality and extensibility of
+    <br>    SAM, explore the performance space of sparse tensor algebra optimizations using
+    <br>    SAM, and show SAM's ability to represent dataflow hardware.},
+    <br>    booktitle = {Proceedings of the 28th ACM International Conference
+    <br>    on Architectural Support for Programming Languages and Operating Systems,
+    <br>    Volume 3},
+    <br>    pages = {710–726},
+    <br>    numpages = {17},
+    <br>    keywords = {domain-specific, streams, abstract machine, sparse tensor algebra},
+    <br>    location = {Vancouver, BC, Canada},
+    <br>    series = {ASPLOS 2023}
+    }"
+
+latte2023:
+  title: Designing a Dataflow Hardware Accelerator with an Abstract Machine 
+  venue: "Workshop on Languages, Tools, and Techniques for Accelerator Design (LATTE) co-located with ASPLOS 2023"
+  abstract: "<p>
+This paper motivates the use of domain-specific abstract machines for designing hardware accelerators. Specifically, we
+describe how we built a reconfigurable dataflow accelerator
+for sparse tensor algebra, a relatively complex domain, using
+the Sparse Abstract Machine (SAM). We show that leveraging an abstract dataflow representation (and its compiler)
+lead to a slew of benefits, including computational generality within the application domain, easier verification and
+debugging, boosted design productivity, and decoupled development of the toolchain from the hardware design and
+generation. These benefits allowed us to build the accelerator
+within a short time-frame with only two designers.
+<p>"
+  year: 2023
+  pdf: /publications/latte2023-sparse-cgra.pdf
+  month: March
+  authors:
+    - hsu
+    - strange
+    - olukotun
+    - horowitz
+    - kjolstad
+  movie: https://youtu.be/0rBjQG8z7Dc
+  embeddedmovie: <iframe width="560" height="315" src="https://youtu.be/0rBjQG8z7Dc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
 sigcse2023:
   title: Inclusive study group formation at scale
