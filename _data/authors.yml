@@ -9,6 +9,10 @@ amarasinghe:
   name: Saman Amarasinghe
   site: http://people.csail.mit.edu/saman/
 
+bansal:
+  name: Manya Bansal
+  site: https://manya-bansal.github.io/
+
 bhargava:
   name: Pavan Bhargava
   site: https://www.linkedin.com/in/pavan-bhargava-691a3925/
@@ -23,10 +27,11 @@ chou:
 
 emer:
   name: Joel Emer
-  side: https://people.csail.mit.edu/emer/
+  site: https://people.csail.mit.edu/emer/
 
 ejjeh:
   name: Adel Ejjeh
+  site: https://www.linkedin.com/in/adel-ejjeh
 
 hanrahan:
   name: Pat Hanrahan
@@ -65,7 +70,7 @@ madhvapathy:
 
 nardi:
   name: Luigi Nardi
-  side: https://cs.lth.se/luigi-nardi/
+  site: https://cs.lth.se/luigi-nardi/
 
 olukotun:
   name: Kunle Olukotun

@@ -1,3 +1,74 @@
+asplos2024:
+  title: "BaCO: A Fast and Portable Bayesian Compiler Optimization Framework"
+  abstract: "<p>
+    We introduce the Bayesian Compiler Optimization framework (BaCO), a general
+    purpose autotuner for modern compilers targeting CPUs, GPUs, and FPGAs. BaCO
+    provides the flexibility needed to handle the requirements of modern autotuning
+    tasks. Particularly, it deals with permutation, ordered, and continuous
+    parameter types along with both known and unknown parameter constraints. To
+    reason about these parameter types and efficiently deliver high-quality code,
+    BaCO uses Bayesian optimization algorithms specialized towards the autotuning
+    domain. We demonstrate BaCO's effectiveness on three modern compiler systems:
+    TACO, RISE & ELEVATE, and HPVM2FPGA for CPUs, GPUs, and FPGAs respectively. For
+    these domains, BaCO outperforms current state-of-the-art autotuners by
+    delivering on average 1.39x-1.89x faster code with a tiny search budget, and
+    BaCO is able to reach expert-level performance 2.89x-8.77x faster.
+    </p>"
+  venue: "to appear in International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)"
+  year: 2024
+  month:
+  url: "https://arxiv.org/abs/2212.11142" 
+  authors:
+    - hellsten
+    - souza
+    - lenfers
+    - lacouture
+    - hsu
+    - ejjeh
+    - kjolstad
+    - steuwer
+    - olukotun
+    - nardi
+  bibtex: "
+    @misc{hellsten2022baco,
+    <br>      title={BaCO: A Fast and Portable Bayesian Compiler Optimization Framework}, 
+    <br>      author={Erik Hellsten and Artur Souza and Johannes Lenfers and Rubens
+    <br>      Lacouture and Olivia Hsu and Adel Ejjeh and Fredrik Kjolstad and Michel Steuwer
+    <br>      and Kunle Olukotun and Luigi Nardi},
+    <br>      year={2022},
+    <br>      eprint={2212.11142},
+    <br>      archivePrefix={arXiv},
+    <br>      primaryClass={cs.PL}
+    }"
+
+pldi2023:
+  title: "Mosaic: An Interoperable Compiler for Tensor Algebra"
+  abstract: "<p>
+    We introduce Mosaic, a sparse tensor algebra compiler that can bind tensor
+    (sub-)expressions to external functions of other tensor algebra libraries or
+    compilers. Users can extend Mosaic by adding new functions and can bind a
+    sub-computation to a function using a scheduling API. Mosaic substitutes the
+    bound(sub-)expressions with the specified function call and automatically
+    fills in the rest of the unbound code using a default code generator. Mosaic
+    also has a search system that can automatically map an expression to a set of
+    registered external functions. Both the explicit binding and automatic search
+    are verified by Mosaic. We demonstrate the benefits of our approach by
+    showing that calling hand-written CPU and specialized hardware functions can
+    provide speedup of up to 206x and 173x, respectively, over a homogeneous
+    compiler. Mosaic’s external function interface is simple and general.
+    Currently, 38 external functions have been added to Mosaic, with each
+    addition averaging 20 lines of C++ code.
+  </p>" 
+  venue: "to appear in Programming Language Design and Implementation (PLDI)"
+  year: 2023
+  month: June
+  authors:
+    - bansal
+    - hsu
+    - olukotun
+    - kjolstad
+  bibtex: ""
+
 asplos2023: 
   title: The Sparse Abstract Machine
   abstract: "<p>
@@ -165,49 +236,6 @@ sigcse2023:
     <br>    keywords = {remote learning, group formation, study groups, education},
     <br>    location = {Toronto ON, Canada},
     <br>    series = {SIGCSE 2023}
-    }"
-
-arxiv2022baco:
-  title: "BaCO: A Fast and Portable Bayesian Compiler Optimization Framework"
-  abstract: "<p>
-    We introduce the Bayesian Compiler Optimization framework (BaCO), a general
-    purpose autotuner for modern compilers targeting CPUs, GPUs, and FPGAs. BaCO
-    provides the flexibility needed to handle the requirements of modern autotuning
-    tasks. Particularly, it deals with permutation, ordered, and continuous
-    parameter types along with both known and unknown parameter constraints. To
-    reason about these parameter types and efficiently deliver high-quality code,
-    BaCO uses Bayesian optimization algorithms specialized towards the autotuning
-    domain. We demonstrate BaCO's effectiveness on three modern compiler systems:
-    TACO, RISE & ELEVATE, and HPVM2FPGA for CPUs, GPUs, and FPGAs respectively. For
-    these domains, BaCO outperforms current state-of-the-art autotuners by
-    delivering on average 1.39x-1.89x faster code with a tiny search budget, and
-    BaCO is able to reach expert-level performance 2.89x-8.77x faster.
-    </p>"
-  venue: "Arxiv Preprint"
-  year: 2022
-  month: December
-  url: "https://arxiv.org/abs/2212.11142"
-  authors:
-    - hellsten
-    - souza
-    - lenfers
-    - lacouture
-    - hsu
-    - ejjeh
-    - kjolstad
-    - steuwer
-    - olukotun
-    - nardi
-  bibtex: "
-    @misc{hellsten2022baco,
-    <br>      title={BaCO: A Fast and Portable Bayesian Compiler Optimization Framework}, 
-    <br>      author={Erik Hellsten and Artur Souza and Johannes Lenfers and Rubens
-    <br>      Lacouture and Olivia Hsu and Adel Ejjeh and Fredrik Kjolstad and Michel Steuwer
-    <br>      and Kunle Olukotun and Luigi Nardi},
-    <br>      year={2022},
-    <br>      eprint={2212.11142},
-    <br>      archivePrefix={arXiv},
-    <br>      primaryClass={cs.PL}
     }"
 
 arxiv2022stardust: 
