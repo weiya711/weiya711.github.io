@@ -1,3 +1,11 @@
+cs143sp23:
+  title: "CS 143: Compilers"
+  url: "https://cs143.stanford.edu"
+  role: "Course Assistant (CA)"
+  month: "Spring"
+  year: "2023"
+  venue: "Stanford University"
+
 cs149fa21:
   title: "CS 149: Parallel Computing"
   url: "https://cs149.stanford.edu/fall21"
@@ -20,11 +28,11 @@ hope:
   role: "Student Instructor"
   month: "Fall"
   year: "2018"
-  venue: "UC Berkeley"
+  venue: "University of California, Berkeley"
 
 ee16a:
   title: "EECS 16A: Designing Information Devices and Systems" 
-  venue: "UC Berkeley"
+  venue: "University of California, Berkeley"
   role: "Head Undergraduate Student Instructor (UGSI)"
   year: "2016-2017"
   month: "Fall"

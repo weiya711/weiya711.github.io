@@ -1,0 +1,26 @@
+ctsta: 
+  title: "The Sparse Abstract Machine"
+  month: June
+  year: 2023
+  venue: "PLDI 2023: Compilation Techniques for Sparse Tensor Algebra (CTSTA) (to appear)"
+  url: https://pldi23.sigplan.org/home/ctsta-2023#program 
+
+uw-sampl:
+  title: "The Sparse Abstract Machine: Sparse Tensor Algebra as Dataflow Graphs"
+  month: October
+  year: 2022
+  venue: "University of Washington: SAMPL Lunch Talk"
+  url: https://sampl.cs.washington.edu/talks.html
+
+google-brain:
+  title: "Compilation of Sparse Array Programming Models"
+  month: April
+  year: 2022
+  venue: "Google Brain: ML compilation seminar"
+
+ucsc-lsd:
+  title: "Compilation of Sparse Array Programming Models"
+  month: April
+  year: 2022
+  venue: "University of California, Santa Cruz: LSD Seminar"
+  url: https://lsd.ucsc.edu/lsd-seminar/2022sp/#april-1

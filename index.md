@@ -95,7 +95,7 @@ applications of silicon-photonics.
         {%- endif -%}
         </i>, {{ pub.month }} {{ pub.year }}<br/>
         {%- if pub.award -%}
-          <i><b>{{ pub.award }}</b></i><br/>
+          <i><span style="color:#0096FF"><b>{{ pub.award }}</b></span></i><br/>
         {%- endif -%}
       </td>
       <td valign="top" width="20">
@@ -112,22 +112,45 @@ applications of silicon-photonics.
 {% endfor %}
 </table>
 
+<h2 class="tableheading">Invited Talks</h2>
+<table border="0">
+{%- for talk_keyval in site.data.talks %}
+  {%- assign talk= talk_keyval[1] -%}
+  <tr>
+  <td> 
+    <b>
+    {% if talk.url %}
+	<a href="{{talk.url}}">{{talk.title}}</a></b>
+    {%- else %}
+    {{talk.title}}</b>
+    {%- endif -%}
+	<br/>{{talk.month}} {{talk.year}} 
+    <br/>{{talk.venue}}
+  </td>
+  </tr>
+{% endfor %}
+</table>
+
 <h2 class="tableheading">Teaching</h2>
 <table border="0">
 {%- for teaching_keyval in site.data.teaching %}
   {%- assign teaching= teaching_keyval[1] -%}
   <tr>
   <td> 
-    <b><a
-	href="{{teaching.url}}">{{teaching.title}}</a></b><br/>{{teaching.role}}
+    <b>
+    {% if teaching.url %}
+	<a href="{{teaching.url}}">{{teaching.title}}</a></b>
+    {%- else %}
+	{{teaching.title}}</b>
+    {%- endif -%}
 	<br/>{{teaching.month}} {{teaching.year}}, {{teaching.venue}}
   </td>
   </tr>
 {% endfor %}
 </table>
 
-<h2 class="tableheading">Projects</h2>
-Boop beep boop... Work in progress. Check again soon!
+[comment]: <> <h2 class="tableheading">Projects</h2>
+[comment]: <> Boop beep boop... Work in progress. Check again soon!
 
 <h2 class="tableheading">Press</h2>
 
