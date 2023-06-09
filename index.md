@@ -95,7 +95,7 @@ applications of silicon-photonics.
         {%- endif -%}
         </i>, {{ pub.month }} {{ pub.year }}<br/>
         {%- if pub.award -%}
-          <i><span style="color:#0096FF"><b>{{ pub.award }}</b></span></i><br/>
+          <span style="color:#0096FF"><b>{{ pub.award }}</b></span><br/>
         {%- endif -%}
       </td>
       <td valign="top" width="20">
