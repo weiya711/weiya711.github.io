@@ -59,7 +59,9 @@ pldi2023:
     Currently, 38 external functions have been added to Mosaic, with each
     addition averaging 20 lines of C++ code.
   </p>" 
-  venue: "Programming Language Design and Implementation (PLDI)"
+  venue: "Proceedings of the ACM on Programming Languages"
+  issue: PLDI
+  volume: 7
   pdf: /publications/pldi2023-mosaic.pdf
   year: 2023
   month: June
@@ -123,11 +125,14 @@ plarch2023:
     <p>"
   year: 2023
   month: June
+  pdf: /publications/plarch2023.pdf
   authors:
     - lacouture
     - hsu
     - olukotun
     - kjolstad
+  movie: https://www.youtube.com/watch?v=eiYtlmeSGCY&ab_channel=ACMSIGPLAN
+  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/watch?v=eiYtlmeSGCY&ab_channel=ACMSIGPLAN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
 
 asplos2023: 
