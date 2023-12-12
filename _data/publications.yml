@@ -11,8 +11,8 @@ asplos2024:
     domain. We demonstrate BaCO's effectiveness on three modern compiler systems:
     TACO, RISE & ELEVATE, and HPVM2FPGA for CPUs, GPUs, and FPGAs respectively. For
     these domains, BaCO outperforms current state-of-the-art autotuners by
-    delivering on average 1.39x-1.89x faster code with a tiny search budget, and
-    BaCO is able to reach expert-level performance 2.89x-8.77x faster.
+    delivering on average 1.36x-1.56x faster code with a tiny search budget, and
+    BaCO is able to reach expert-level performance 2.9x-3.9x faster.
     </p>"
   venue: "to appear in International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)"
   year: 2024
@@ -59,7 +59,10 @@ pldi2023:
     Currently, 38 external functions have been added to Mosaic, with each
     addition averaging 20 lines of C++ code.
   </p>" 
-  venue: "to appear in Programming Language Design and Implementation (PLDI)"
+  venue: "Proceedings of the ACM on Programming Languages"
+  issue: PLDI
+  volume: 7
+  pdf: /publications/pldi2023-mosaic.pdf
   year: 2023
   month: June
   award: "Distinguished Paper Award"
@@ -69,7 +72,68 @@ pldi2023:
     - hsu
     - olukotun
     - kjolstad
-  bibtex: ""
+  bibtex: "
+    <br>    @article{10.1145/3591236,
+    <br>    author = {Bansal, Manya and Hsu, Olivia and Olukotun, Kunle and Kjolstad, Fredrik},
+    <br>    title = {Mosaic: An Interoperable Compiler for Tensor Algebra},
+    <br>    year = {2023},
+    <br>    issue_date = {June 2023},
+    <br>    publisher = {Association for Computing Machinery},
+    <br>    address = {New York, NY, USA},
+    <br>    volume = {7},
+    <br>    number = {PLDI},
+    <br>    url = {https://doi.org/10.1145/3591236},
+    <br>    doi = {10.1145/3591236},
+    <br>    abstract = {We introduce Mosaic, a sparse tensor algebra compiler that can bind
+    <br>    tensor expressions to external functions of other tensor algebra libraries and
+    <br>    compilers. Users can extend Mosaic by adding new functions and bind a
+    <br>    sub-expression to a function using a scheduling API. Mosaic substitutes the
+    <br>    bound sub-expressions with calls to the external functions and automatically
+    <br>    generates the remaining code using a default code generator. As the generated
+    <br>    code is fused by default, users can productively leverage both fusion and calls
+    <br>    to specialized functions within the same compiler. We demonstrate the benefits
+    <br>    of our dual approach by showing that calling hand-written CPU and specialized
+    <br>    hardware functions can provide speedups of up to 206x against fused
+    <br>    code in some cases, while generating fused code can provide speedups of up to
+    <br>    3.57x against code that calls external functions in other cases.
+    <br>    Mosaic also offers a search system that can automatically map an expression to
+    <br>    a set of registered external functions. Both the explicit binding and automatic
+    <br>    search are verified by Mosaic. Additionally, the interface for adding new
+    <br>    external functions is simple and general. Currently, 38 external functions have
+    <br>    been added to Mosaic, with each addition averaging 20 lines of code.},
+    <br>    journal = {Proc. ACM Program. Lang.},
+    <br>    month = {jun},
+    <br>    articleno = {122},
+    <br>    numpages = {26},
+    <br>    keywords = {sparse tensor algebra, compilation, external functions, automated search}
+    }"
+
+plarch2023:
+  title: "Challenges with Hardware-Software Co-design for Sparse Machine Learning on Streaming Dataflow"
+  venue: "Workshop on Programming Languages and Architecture (PLARCH) co-located with FCRC/ISCA/PLDI 2023"
+  abstract: "<p>
+    This paper details the problem landscape that arises from using a general
+    tensor algebra accelerator framework to compute real-world end-to-end machine
+    learning applications. We identify three key challenges for correctness and
+    performance, which include support for tensor reshaping and nonlinear
+    operations, dataflow optimization (kernel fusion, optimal dataflow order), and
+    leveraging sparsity structure. This paper motivates the need to address these
+    problems in the domain-specific language, compiler framework, and architectural
+    design for sparse machine learning. We extended a general tensor algebra
+    compiler and architectural model, the Sparse Abstract Machine, to real-world
+    sparse machine learning models in order to identify the key challenges above. 
+    <p>"
+  year: 2023
+  month: June
+  pdf: /publications/plarch2023.pdf
+  authors:
+    - lacouture
+    - hsu
+    - olukotun
+    - kjolstad
+  movie: https://www.youtube.com/watch?v=eiYtlmeSGCY&ab_channel=ACMSIGPLAN
+  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/watch?v=eiYtlmeSGCY&ab_channel=ACMSIGPLAN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+
 
 asplos2023: 
   title: The Sparse Abstract Machine
@@ -132,20 +196,22 @@ asplos2023:
     <br>    location = {Vancouver, BC, Canada},
     <br>    series = {ASPLOS 2023}
     }"
+  movie: https://www.youtube.com/watch?v=zCzZKWheizE
+  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/watch?v=zCzZKWheizE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
 latte2023:
   title: Designing a Dataflow Hardware Accelerator with an Abstract Machine 
   venue: "Workshop on Languages, Tools, and Techniques for Accelerator Design (LATTE) co-located with ASPLOS 2023"
   abstract: "<p>
-This paper motivates the use of domain-specific abstract machines for designing hardware accelerators. Specifically, we
-describe how we built a reconfigurable dataflow accelerator
-for sparse tensor algebra, a relatively complex domain, using
-the Sparse Abstract Machine (SAM). We show that leveraging an abstract dataflow representation (and its compiler)
-lead to a slew of benefits, including computational generality within the application domain, easier verification and
-debugging, boosted design productivity, and decoupled development of the toolchain from the hardware design and
-generation. These benefits allowed us to build the accelerator
-within a short time-frame with only two designers.
-<p>"
+    This paper motivates the use of domain-specific abstract machines for designing hardware accelerators. Specifically, we
+    describe how we built a reconfigurable dataflow accelerator
+    for sparse tensor algebra, a relatively complex domain, using
+    the Sparse Abstract Machine (SAM). We show that leveraging an abstract dataflow representation (and its compiler)
+    lead to a slew of benefits, including computational generality within the application domain, easier verification and
+    debugging, boosted design productivity, and decoupled development of the toolchain from the hardware design and
+    generation. These benefits allowed us to build the accelerator
+    within a short time-frame with only two designers.
+    <p>"
   year: 2023
   pdf: /publications/latte2023-sparse-cgra.pdf
   month: March
