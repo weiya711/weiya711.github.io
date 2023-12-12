@@ -7,12 +7,12 @@ asplos2024:
     tasks. Particularly, it deals with permutation, ordered, and continuous
     parameter types along with both known and unknown parameter constraints. To
     reason about these parameter types and efficiently deliver high-quality code,
-    BaCO uses Bayesian optimization algorithms specialized towards the autotuning
+    BaCO uses Bayesian optimiza tion algorithms specialized towards the autotuning
     domain. We demonstrate BaCO's effectiveness on three modern compiler systems:
     TACO, RISE & ELEVATE, and HPVM2FPGA for CPUs, GPUs, and FPGAs respectively. For
     these domains, BaCO outperforms current state-of-the-art autotuners by
-    delivering on average 1.39x-1.89x faster code with a tiny search budget, and
-    BaCO is able to reach expert-level performance 2.89x-8.77x faster.
+    delivering on average 1.36x-1.56x faster code with a tiny search budget, and
+    BaCO is able to reach expert-level performance 2.9x-3.9x faster.
     </p>"
   venue: "to appear in International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)"
   year: 2024
@@ -70,6 +70,30 @@ pldi2023:
     - olukotun
     - kjolstad
   bibtex: ""
+
+plarch2023:
+  title: "Challenges with Hardware-Software Co-design for Sparse Machine Learning on Streaming Dataflow"
+  venue: "to appear in Workshop on Programming Languages and Architecture (PLARCH) co-located with FCRC/ISCA/PLDI 2023"
+  abstract: "<p>
+    This paper details the problem landscape that arises from using a general
+    tensor algebra accelerator framework to compute real-world end-to-end machine
+    learning applications. We identify three key challenges for correctness and
+    performance, which include support for tensor reshaping and nonlinear
+    operations, dataflow optimization (kernel fusion, optimal dataflow order), and
+    leveraging sparsity structure. This paper motivates the need to address these
+    problems in the domain-specific language, compiler framework, and architectural
+    design for sparse machine learning. We extended a general tensor algebra
+    compiler and architectural model, the Sparse Abstract Machine, to real-world
+    sparse machine learning models in order to identify the key challenges above. 
+    <p>"
+  year: 2023
+  month: June
+  authors:
+    - lacouture
+    - hsu
+    - olukotun
+    - kjolstad
+
 
 asplos2023: 
   title: The Sparse Abstract Machine
@@ -137,15 +161,15 @@ latte2023:
   title: Designing a Dataflow Hardware Accelerator with an Abstract Machine 
   venue: "Workshop on Languages, Tools, and Techniques for Accelerator Design (LATTE) co-located with ASPLOS 2023"
   abstract: "<p>
-This paper motivates the use of domain-specific abstract machines for designing hardware accelerators. Specifically, we
-describe how we built a reconfigurable dataflow accelerator
-for sparse tensor algebra, a relatively complex domain, using
-the Sparse Abstract Machine (SAM). We show that leveraging an abstract dataflow representation (and its compiler)
-lead to a slew of benefits, including computational generality within the application domain, easier verification and
-debugging, boosted design productivity, and decoupled development of the toolchain from the hardware design and
-generation. These benefits allowed us to build the accelerator
-within a short time-frame with only two designers.
-<p>"
+    This paper motivates the use of domain-specific abstract machines for designing hardware accelerators. Specifically, we
+    describe how we built a reconfigurable dataflow accelerator
+    for sparse tensor algebra, a relatively complex domain, using
+    the Sparse Abstract Machine (SAM). We show that leveraging an abstract dataflow representation (and its compiler)
+    lead to a slew of benefits, including computational generality within the application domain, easier verification and
+    debugging, boosted design productivity, and decoupled development of the toolchain from the hardware design and
+    generation. These benefits allowed us to build the accelerator
+    within a short time-frame with only two designers.
+    <p>"
   year: 2023
   pdf: /publications/latte2023-sparse-cgra.pdf
   month: March
