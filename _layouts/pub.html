@@ -4,7 +4,7 @@ tags: publication
 ---
 
 <article class="post">
-  {%- assign pub_key =  page.path | remove: ".md" -%}
+  {%- assign pub_key =  page.path | remove: ".md" | remove: "pub_md/" -%}
   {%- assign pub     =  site.data.publications[pub_key] -%}
 
   <header class="post-header">
