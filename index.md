@@ -47,9 +47,8 @@ xhttp.send();
 I am a computer science PhD student at Stanford University advised by Professor 
 [Kunle Olukotun](https://profiles.stanford.edu/kunle-olukotun?tab=bio) 
 and Professor [Fredrik Kjolstad](http://fredrikbk.com). 
-I currently work on mapping sparse tensor expressions to domain-specific
-hardware, architectures, and accelerators through the [taco
-compiler](http://tensor-compiler.org). My research interests also broadly include
+I currently work on mapping and compiling sparse applications to domain-specific
+hardware, architectures, and accelerators. My research interests also broadly include
 computer 
 architecture, computer and programming systems, compilers, 
 programming models and languages, and digital circuits/VLSI.
