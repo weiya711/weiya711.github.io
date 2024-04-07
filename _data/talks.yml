@@ -1,3 +1,9 @@
+mit: 
+  title: "Architectural and compiler support for accelerating embedding operations on general purpose processors" 
+  month: February
+  year: 2024
+  venue: "Massachusetts Institute of Technology Computer Science and Artificial Intelligence Laboratory (MIT CSAIL)"  
+
 ucsb: 
   title: "Beyond the Sparse Abstract Machine: Mapping sparse applications to accelerated computing systems" 
   month: December
