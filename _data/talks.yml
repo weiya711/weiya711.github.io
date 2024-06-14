@@ -1,3 +1,16 @@
+cmu:
+  title: "Mapping sparse applications to accelerated computing systems" 
+  month: April
+  year: 2024
+  venue: "Carnegie Mellon University (CMU) Systems Design and Implementation (SDI) Seminar"
+  url: https://www.pdl.cmu.edu/SDI/2024/041124.html
+
+utokyo:
+  title: "The Sparse Abstract Machine"
+  month: April
+  year: 2024
+  venue: "Stanford and U-Tokyo Workshop: Agile and low-cost HW design workshop for domain-specific computing era"  
+
 mit: 
   title: "Architectural and compiler support for accelerating embedding operations on general purpose processors" 
   month: February
