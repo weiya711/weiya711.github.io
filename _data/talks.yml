@@ -1,3 +1,17 @@
+sparse2024:
+  title: "AHA Tutorial"
+  month: November
+  venue: "to appear in MICRO 2024"
+  year: 2024
+
+sparse2024:
+  title: "Mapping Sparse Applications to Accelerated Computing Systems"
+  month: June
+  venue: "PLDI 2024: Sparse Workshop"
+  year: 2024
+  url: https://pldi24.sigplan.org/home/sparse-2024
+  movie: https://www.youtube.com/watch?v=rxlCJ_ewsc8&ab_channel=ACMSIGPLAN
+
 cmu:
   title: "Mapping sparse applications to accelerated computing systems" 
   month: April

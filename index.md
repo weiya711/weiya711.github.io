@@ -99,9 +99,9 @@ applications of silicon-photonics.
       </td>
       <td valign="top" width="20">
         {% if pub.pdf %}
-            <a href="{{ pub.pdf }}"><img src="/assets/pdf.png" alt="pdf" /></a>
+            <a href="{{ pub.pdf }}"><img src="/assets/PDF_icon.svg" alt="pdf" /></a>
 	{% elsif pub.url %}
-            <a href="{{ pub.url }}"><img src="/assets/pdf.png" alt="pdf" /></a>
+            <a href="{{ pub.url }}"><img src="/assets/PDF_icon.svg" alt="pdf" /></a>
         {% endif %}
         {% if pub.movie %}
           <a href="{{ pub.movie }}"><img src="/assets/movie.png" alt="youtube" /></a>
@@ -125,6 +125,11 @@ applications of silicon-photonics.
     {%- endif -%}
 	<br/>{{talk.month}} {{talk.year}} 
     <br/>{{talk.venue}}
+    <td valign="top" width="20">
+    {% if talk.movie %}
+      <a href="{{ talk.movie }}"><img src="/assets/movie.png" alt="youtube" /></a>
+    {% endif %}
+    </td>
   </td>
   </tr>
 {% endfor %}
