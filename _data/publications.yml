@@ -1,4 +1,3 @@
-
 cgo2025: 
   title: "Stardust: Compiling Sparse Tensor Algebra to a Reconfigurable Dataflow Architecture"
   abstract: "<p>
@@ -137,7 +136,7 @@ pldi2024:
    <br> keywords = {code composition, compilation, sparse tensor algebra, sparse workspaces}
    <br> }"
   movie: https://www.youtube.com/watch?v=bkovjLkg8yI&ab_channel=ACMSIGPLAN
-  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/watch?v=bkovjLkg8yI&ab_channel=ACMSIGPLAN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/bkovjLkg8yI?si=zvYw1s6otCidWiqU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 vlsi2024:
   title: "Onyx: A 12nm 756 GOPS/W Coarse-Grained Reconfigurable Array for Accelerating Dense and Sparse Applications" 
