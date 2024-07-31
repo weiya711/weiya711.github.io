@@ -264,6 +264,8 @@ pldi2023:
     - hsu
     - olukotun
     - kjolstad
+  movie: https://youtu.be/2I0DwL9uOcg?si=nmB6FMq2LTqAe0gb
+  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/2I0DwL9uOcg?si=nmB6FMq2LTqAe0gb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   bibtex: "
     <br>    @article{10.1145/3591236,
     <br>    author = {Bansal, Manya and Hsu, Olivia and Olukotun, Kunle and Kjolstad, Fredrik},
@@ -324,8 +326,7 @@ plarch2023:
     - olukotun
     - kjolstad
   movie: https://www.youtube.com/watch?v=eiYtlmeSGCY&ab_channel=ACMSIGPLAN
-  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/watch?v=eiYtlmeSGCY&ab_channel=ACMSIGPLAN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-
+  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/eiYtlmeSGCY?si=YqMqNgUv3CoNKoM-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 asplos2023: 
   title: The Sparse Abstract Machine
@@ -389,7 +390,7 @@ asplos2023:
     <br>    series = {ASPLOS 2023}
     }"
   movie: https://www.youtube.com/watch?v=zCzZKWheizE
-  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/watch?v=zCzZKWheizE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/zCzZKWheizE?si=yE869mNtf5SHBWLa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 latte2023:
   title: Designing a Dataflow Hardware Accelerator with an Abstract Machine 
@@ -414,7 +415,7 @@ latte2023:
     - horowitz
     - kjolstad
   movie: https://youtu.be/0rBjQG8z7Dc
-  embeddedmovie: <iframe width="560" height="315" src="https://youtu.be/0rBjQG8z7Dc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/0rBjQG8z7Dc?si=iqzXVC5Y5UEI21Iv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 sigcse2023:
   title: Inclusive study group formation at scale
