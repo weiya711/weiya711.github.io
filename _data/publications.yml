@@ -1,44 +1,209 @@
+icml2025:
+  title: "Adaptive Self-improvement LLM Agentic System for ML Library Development"
+  abstract: "<p>
+    ML libraries, often written in architecture-specific programming languages
+    (ASPLs) that target domain-specific architectures, are key to efficient ML
+    systems. However, writing these high-performance ML libraries is challenging
+    because it requires expert knowledge of both ML algorithms and the ASPL. Large
+    language models (LLMs), on the other hand, have shown general coding
+    capabilities. However, challenges remain when using LLMs for generating ML
+    libraries using ASPLs because 1) this task is complicated even for human
+    experts and 2) there are limited code examples due to the esoteric and evolving
+    nature of ASPLs. We present an adaptive self-improvement agentic system that
+    enables LLMs to perform such complex reasoning under limited data by
+    iteratively improving their capability through self-generated experience. In
+    order to evaluate the effectiveness of our system, we construct a benchmark of
+    a typical ML library and generate ASPL code with both open and closed-source
+    LLMs on this benchmark. Our results show improvements of up to over a baseline
+    single LLM.
+    </p>"
+  venue: "to appear in International Conference on Machine Learning (ICML)"
+  year: 2025
+  month: July
+  pdf: /publications/iclr-icml2025-adaptive-self-improvement.pdf 
+  authors: 
+    - zhanggenghan
+    - liangweixin
+    - hsu
+    - olukotun
+  bibtex: "@inproceedings{zhang2025adaptive,
+    <br>  title={Adaptive Self-improvement {LLM} Agentic System for {ML} Library Development},
+    <br>  author={Genghan Zhang and Weixin Liang and Olivia Hsu and Kunle Olukotun},
+    <br>  booktitle={Forty-second International Conference on Machine Learning},
+    <br>  year={2025},
+    <br>  url={https://openreview.net/forum?id=gdsZ3uMPsY}
+    <br>  }"
+
+ieeemicro2025: 
+  title: "Designing Programmable Accelerators for Sparse Tensor Algebra"
+  abstract: "<p>
+    Recent research has focused on leveraging sparsity in hardware
+    accelerators to improve the efficiency of applications spanning scientific
+    computing to machine learning. Most such prior accelerators are fixed-function,
+    which is insufficient for two reasons. First, applications typically include
+    both dense and sparse components, and second, the algorithms that comprise
+    these applications are constantly evolving. To address these challenges, we
+    designed a programmable accelerator called Onyx for both sparse tensor algebra
+    and dense workloads. Onyx extends a coarse-grained reconfigurable array (CGRA)
+    optimized for dense applications with composable hardware primitives to support
+    arbitrary sparse tensor algebra kernels. In this article, we show that we can
+    further optimize Onyx by adding a small set of hardware features for
+    parallelization that significantly increase both temporal and spatial
+    utilization of the CGRA, reducing runtime by up to 6.2×.
+    </p>"
+  venue: "IEEE Micro" 
+  year: 2025
+  month: May 
+  url: "https://ieeexplore.ieee.org/document/10947596"
+  pdf: /publications/ieeemicro2025-submit-version.pdf
+  articlenote: The above PDF is the author-submitted version of the article. The final published version can be found at the Article URL above.
+  authors:
+    - koul
+    - xie
+    - strange
+    - ravipatigautham
+    - chengbowun
+    - hsu
+    - chen
+    - horowitz
+    - kjolstad
+    - raina 
+  bibtex: "@ARTICLE{10947596,
+    <br>  author={Koul, Kalhan and Xie, Zhouhua and Strange, Maxwell and Ravipati, Sai
+    <br>  Gautham and Cheng, Bo Wun and Hsu, Olivia and Chen, Po-Han and Horowitz, Mark
+    <br>  and Kjolstad, Fredrik and Raina, Priyanka},
+    <br>  journal={IEEE Micro}, 
+    <br>  title={Designing Programmable Accelerators for Sparse Tensor Algebra}, 
+    <br>  year={2025},
+    <br>  volume={45},
+    <br>  number={3},
+    <br>  pages={58-65},
+    <br>  keywords={Tensors;Pipeline processing;Algebra;Micromechanical
+    <br>  devices;Repeaters;Random access memory;Kernel;Arrays;Sparse matrices;Process
+    <br>  control},
+    <br>  doi={10.1109/MM.2025.3556611}}"
+  
+iclr2025llm:
+  title: "Adaptive Self-improvement LLM Agentic System for ML Library Development"
+  abstract: "<p>
+    ML libraries, often written in architecture-specific programming languages
+    (ASPLs) that target domain-specific architectures, are key to efficient ML
+    systems. However, writing these high-performance ML libraries is challenging
+    because it requires expert knowledge of both ML algorithms and the ASPL. Large
+    language models (LLMs), on the other hand, have shown general coding
+    capabilities. However, challenges remain when using LLMs for generating ML
+    libraries using ASPLs because 1) this task is complicated even for human
+    experts and 2) there are limited code examples due to the esoteric and evolving
+    nature of ASPLs. We present an adaptive self-improvement agentic system that
+    enables LLMs to perform such complex reasoning under limited data by
+    iteratively improving their capability through self-generated experience. In
+    order to evaluate the effectiveness of our system, we construct a benchmark of
+    a typical ML library and generate ASPL code with both open and closed-source
+    LLMs on this benchmark. Our results show improvements of up to over a baseline
+    single LLM.
+    </p>"
+  venue: "International Conference on Learning Representations (ICLR) Workshop on Reasoning and Planning for LLMs"
+  year: 2025
+  month: May
+  pdf: /publications/iclr-icml2025-adaptive-self-improvement.pdf 
+  authors: 
+    - zhanggenghan
+    - liangweixin
+    - hsu
+    - olukotun
+  
+iclr2025dl4c:
+  title: "Adaptive Self-improvement LLM Agentic System for ML Library Development"
+  abstract: "<p>
+    ML libraries, often written in architecture-specific programming languages
+    (ASPLs) that target domain-specific architectures, are key to efficient ML
+    systems. However, writing these high-performance ML libraries is challenging
+    because it requires expert knowledge of both ML algorithms and the ASPL. Large
+    language models (LLMs), on the other hand, have shown general coding
+    capabilities. However, challenges remain when using LLMs for generating ML
+    libraries using ASPLs because 1) this task is complicated even for human
+    experts and 2) there are limited code examples due to the esoteric and evolving
+    nature of ASPLs. We present an adaptive self-improvement agentic system that
+    enables LLMs to perform such complex reasoning under limited data by
+    iteratively improving their capability through self-generated experience. In
+    order to evaluate the effectiveness of our system, we construct a benchmark of
+    a typical ML library and generate ASPL code with both open and closed-source
+    LLMs on this benchmark. Our results show improvements of up to over a baseline
+    single LLM.
+    </p>"
+  venue: "Deep Learning for Code (DL4C) Workshop at International Conference on Learning Representations (ICLR)"
+  year: 2025
+  month: May
+  pdf: /publications/iclr-icml2025-adaptive-self-improvement.pdf 
+  award: "Spotlight: Best Paper Award"
+  authors: 
+    - zhanggenghan
+    - liangweixin
+    - hsu
+    - olukotun
+
 cgo2025: 
   title: "Stardust: Compiling Sparse Tensor Algebra to a Reconfigurable Dataflow Architecture"
   abstract: "<p>
-    We introduce Stardust, a compiler that compiles sparse tensor algebra to
-    reconfigurable dataflow architectures (RDAs). Stardust introduces new
-    user-provided data representation and scheduling language constructs for
-    mapping to resource-constrained accelerated architectures. Stardust uses
-    the information provided by these constructs to determine on-chip memory
-    placement and to lower to the Capstan RDA through a parallel-patterns
-    rewrite system that targets the Spatial programming model. The Stardust
-    compiler is implemented as a new compilation path inside the TACO
-    open-source system. Using cycle-accurate simulation, we demonstrate that
-    Stardust can generate more Capstan tensor operations than its authors had
-    implemented and that it results in 138× better performance than generated
-    CPU kernels and 41× better performance than generated GPU kernels.
+    We introduce Stardust, a compiler from sparse tensor algebra languages to a
+    sparse reconfigurable dataflow architecture via a parallel-patterns programming
+    model. Stardust lets performance engineers specify the placement of data into
+    memories separately from the placement of computation onto compute units. Users
+    first schedule data placement onto an abstract memory model, and then Stardust
+    binds that data to complex, on-chip physical memories. With guidance from user
+    schedules, Stardust binds computation using these on-chip data structures to
+    the appropriate parallel patterns. Through cycle-accurate simulation, we show
+    that Stardust generates nine more tensor algebra kernels than the original
+    Capstan sparse RDA work. The generated kernels perform, on average,
+    138x better than generated CPU kernels and 41x better
+    than generated GPU kernels.
     </p>"
-  venue: "to appear in the International Symposium on Code Generation and Optimization (CGO)"
+  venue: "International Symposium on Code Generation and Optimization (CGO)"
   year: 2025
   month: March
-  url: "https://arxiv.org/abs/2211.03251"
+  pdf: /publications/cgo2025-stardust.pdf
   authors: 
     - hsu
     - rucker
     - zhao
+    - desai
     - olukotun
     - kjolstad
-  bibtex: " @misc{hsu2022stardust,
-    <br>      title={Stardust: Compiling Sparse Tensor Algebra to a
-    <br>      Reconfigurable Dataflow Architecture}, author={Olivia Hsu and
-    <br>      Alexander Rucker and Tian Zhao and Kunle Olukotun and Fredrik Kjolstad},
-    <br>      year={2022},
-    <br>      eprint={2211.03251},
-    <br>      archivePrefix={arXiv},
-    <br>      primaryClass={cs.PL}
-    }"
+  bibtex: "@inproceedings{hsu2025stardust,
+    <br>  author = {Hsu, Olivia and Rucker, Alexander and Zhao, Tian and Desai,
+    <br>  Varun and Olukotun, Kunle and Kjolstad, Fredrik},
+    <br>  title = {Stardust: Compiling Sparse Tensor Algebra to a Reconfigurable Dataflow Architecture},
+    <br>  year = {2025},
+    <br>  isbn = {9798400712753},
+    <br>  publisher = {Association for Computing Machinery},
+    <br>  address = {New York, NY, USA},
+    <br>  url = {https://doi.org/10.1145/3696443.3708918},
+    <br>  doi = {10.1145/3696443.3708918},
+    <br>  abstract = {We introduce Stardust, a compiler from sparse tensor algebra
+    <br>  languages to a sparse reconfigurable dataflow architecture via a
+    <br>  parallel-patterns programming model. Stardust lets performance engineers
+    <br>  specify the placement of data into memories separately from the placement of
+    <br>  computation onto compute units. Users first schedule data placement onto an
+    <br>  abstract memory model, and then Stardust binds that data to complex, on-chip
+    <br>  physical memories. With guidance from user schedules, Stardust binds
+    <br>  computation using these on-chip data structures to the appropriate parallel
+    <br>  patterns. Through cycle-accurate simulation, we show that Stardust generates
+    <br>  nine more tensor algebra kernels than the original Capstan sparse RDA work. The
+    <br>  generated kernels perform, on average, 138x better than generated
+    <br>  CPU kernels and 41x better than generated GPU kernels.},
+    <br>  booktitle = {Proceedings of the 23rd ACM/IEEE International Symposium on Code Generation and Optimization},
+    <br>  pages = {628–643},
+    <br>  numpages = {16},
+    <br>  keywords = {DSLs, compilers, dataflow, parallel patterns, reconfigurable architectures, sparse tensor algebra},
+    <br>  location = {Las Vegas, NV, USA},
+    <br>  series = {CGO '25}
+    <br>  } "
 
 hotchips2024:
   title: "Onyx: A Programmable Accelerator for Sparse Tensor Algebra"
   year: 2024
   month: August
-  venue: to appear in IEEE Hot Chips Symposium (Hot Chips)
+  venue: IEEE Hot Chips Symposium (Hot Chips)
   authors: 
     - koul
     - strange
@@ -95,54 +260,72 @@ pldi2024:
     - zhanggenghan
     - hsu
     - kjolstad
-  bibtex:
-    " @article{10.1145/3656426,
-   <br> author = {Zhang, Genghan and Hsu, Olivia and Kjolstad, Fredrik},
-   <br> title = {Compilation of Modular and General Sparse Workspaces},
-   <br> year = {2024},
-   <br> issue_date = {June 2024},
-   <br> publisher = {Association for Computing Machinery},
-   <br> address = {New York, NY, USA},
-   <br> volume = {8},
-   <br> number = {PLDI},
-   <br> url = {https://doi-org.stanford.idm.oclc.org/10.1145/3656426},
-   <br> doi = {10.1145/3656426},
-   <br> abstract = {Recent years have seen considerable work on compiling sparse
-   <br> tensor algebra expressions. This paper addresses a shortcoming in that work,
-   <br> namely how to generate efficient code (in time and space) that scatters values
-   <br> into a sparse result tensor. We address this shortcoming through a compiler
-   <br> design that generates code that uses sparse intermediate tensors (sparse
-   <br> workspaces) as efficient adapters between compute code that scatters and result
-   <br> tensors that do not support random insertion. Our compiler automatically
-   <br> detects sparse scattering behavior in tensor expressions and inserts necessary
-   <br> intermediate workspace tensors. We present an algorithm template for workspace
-   <br> insertion that is the backbone of our code generation algorithm. Our algorithm
-   <br> template is modular by design, supporting sparse workspaces that span multiple
-   <br> user-defined implementations. Our evaluation shows that sparse workspaces can
-   <br> be up to 27.12\texttimes{} faster than the dense workspaces of prior work. On
-   <br> the other hand, dense workspaces can be up to 7.58\texttimes{} faster than the
-   <br> sparse workspaces generated by our compiler in other situations, which
-   <br> motivates our compiler design that supports both. Our compiler produces
-   <br> sequential code that is competitive with hand-optimized linear and tensor
-   <br> algebra libraries on the expressions they support, but that generalizes to any
-   <br> other expression. Sparse workspaces are also more memory efficient than dense
-   <br> workspaces as they compress away zeros. This compression can asymptotically
-   <br> decrease memory usage, enabling tensor computations on data that would
-   <br> otherwise run out of memory.},
-   <br> journal = {Proc. ACM Program. Lang.},
-   <br> month = {jun},
-   <br> articleno = {196},
-   <br> numpages = {26},
-   <br> keywords = {code composition, compilation, sparse tensor algebra, sparse workspaces}
-   <br> }"
+  bibtex: "@article{10.1145/3656426,
+    <br>  author = {Zhang, Genghan and Hsu, Olivia and Kjolstad, Fredrik},
+    <br>  title = {Compilation of Modular and General Sparse Workspaces},
+    <br>  year = {2024},
+    <br>  issue_date = {June 2024},
+    <br>  publisher = {Association for Computing Machinery},
+    <br>  address = {New York, NY, USA},
+    <br>  volume = {8},
+    <br>  number = {PLDI},
+    <br>  url = {https://doi.org./10.1145/3656426},
+    <br>  doi = {10.1145/3656426},
+    <br>  abstract = {Recent years have seen considerable work on compiling sparse
+    <br>  tensor algebra expressions. This paper addresses a shortcoming in that work,
+    <br>  namely how to generate efficient code (in time and space) that scatters values
+    <br>  into a sparse result tensor. We address this shortcoming through a compiler
+    <br>  design that generates code that uses sparse intermediate tensors (sparse
+    <br>  workspaces) as efficient adapters between compute code that scatters and result
+    <br>  tensors that do not support random insertion. Our compiler automatically
+    <br>  detects sparse scattering behavior in tensor expressions and inserts necessary
+    <br>  intermediate workspace tensors. We present an algorithm template for workspace
+    <br>  insertion that is the backbone of our code generation algorithm. Our algorithm
+    <br>  template is modular by design, supporting sparse workspaces that span multiple
+    <br>  user-defined implementations. Our evaluation shows that sparse workspaces can
+    <br>  be up to 27.12\texttimes{} faster than the dense workspaces of prior work. On
+    <br>  the other hand, dense workspaces can be up to 7.58\texttimes{} faster than the
+    <br>  sparse workspaces generated by our compiler in other situations, which
+    <br>  motivates our compiler design that supports both. Our compiler produces
+    <br>  sequential code that is competitive with hand-optimized linear and tensor
+    <br>  algebra libraries on the expressions they support, but that generalizes to any
+    <br>  other expression. Sparse workspaces are also more memory efficient than dense
+    <br>  workspaces as they compress away zeros. This compression can asymptotically
+    <br>  decrease memory usage, enabling tensor computations on data that would
+    <br>  otherwise run out of memory.},
+    <br>  journal = {Proc. ACM Program. Lang.},
+    <br>  month = {jun},
+    <br>  articleno = {196},
+    <br>  numpages = {26},
+    <br>  keywords = {code composition, compilation, sparse tensor algebra, sparse workspaces}
+    <br>  }"
   movie: https://www.youtube.com/watch?v=bkovjLkg8yI&ab_channel=ACMSIGPLAN
   embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/bkovjLkg8yI?si=zvYw1s6otCidWiqU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 vlsi2024:
   title: "Onyx: A 12nm 756 GOPS/W Coarse-Grained Reconfigurable Array for Accelerating Dense and Sparse Applications" 
   venue: "IEEE Symposium on VLSI Technology & Circuits (VLSI)"
+  abstract: "<p>
+    Onyx is the first fully programmable accelerator for
+    arbitrary sparse tensor algebra kernels. Unlike prior work, it
+    supports higher-order tensors, multiple inputs, and fusion. It
+    achieves this with a coarse-grained reconfigurable array
+    (CGRA) that has composable memory primitives for storing
+    compressed any-order tensors and compute primitives that
+    eliminate ineffectual computations in sparse expressions.
+    Further, Onyx improves dense image processing and machine
+    learning (ML) with application-specialized compute tiles,
+    memory tiles optimized for affine access patterns, and hybrid
+    clock gating in the global buffer. We achieve up to 565x better
+    energy-delay product (EDP) for sparse kernels vs. CPUs with
+    sparse libraries, and up to 76% and 85% lower EDP for image
+    processing and ML, respectively, vs. Amber [1].
+    </p>"
   year: 2024
   month: June
+  url: "https://ieeexplore.ieee.org/document/10631383"
+  pdf: /publications/vlsi2024-submit-version.pdf 
+  articlenote: The above PDF is the author-submitted version of the article. The final published version can be found at the Article URL above.
   authors: 
     - koul
     - strange
@@ -165,6 +348,22 @@ vlsi2024:
     - kjolstad
     - horowitz
     - raina
+  bibtex: "@INPROCEEDINGS{10631383,
+    <br>  author={Koul, Kalhan and Strange, Maxwell and Melchert, Jackson and Carsello,
+    <br>  Alex and Mei, Yuchen and Hsu, Olivia and Kong, Taeyoung and Chen, Po-Han and
+    <br>  Ke, Huifeng and Zhang, Keyi and Liu, Qiaoyi and Nyengele, Gedeon and
+    <br>  Balasingam, Akhilesh and Adivarahan, Jayashree and Sharma, Ritvik and Xie,
+    <br>  Zhouhua and Torng, Christopher and Emer, Joel and Kjolstad, Fredrik and
+    <br>  Horowitz, Mark and Raina, Priyanka},
+    <br>  booktitle={2024 IEEE Symposium on VLSI Technology and Circuits (VLSI Technology and Circuits)}, 
+    <br>  title={Onyx: A 12nm 756 GOPS/W Coarse-Grained Reconfigurable Array for Accelerating Dense and Sparse Applications}, 
+    <br>  year={2024},
+    <br>  volume={},
+    <br>  number={},
+    <br>  pages={1-2},
+    <br>  keywords={Tensors;Image coding;Algebra;Machine learning;Very large scale integration;Libraries;Kernel},
+    <br>  doi={10.1109/VLSITechnologyandCir46783.2024.10631383}
+    <br>  }"
 
 asplos2024:
   title: "BaCO: A Fast and Portable Bayesian Compiler Optimization Framework"
@@ -467,7 +666,7 @@ sigcse2023:
     <br>    isbn = {9781450394314},
     <br>    publisher = {Association for Computing Machinery},
     <br>    address = {New York, NY, USA},
-    <br>    url = {https://doi-org.stanford.idm.oclc.org/10.1145/3545945.3569885},
+    <br>    url = {https://doi.org/10.1145/3545945.3569885},
     <br>    doi = {10.1145/3545945.3569885},
     <br>    abstract = {Underrepresented students face many significant challenges in
     <br>    their education. In particular, they often have a harder time than their peers
@@ -543,7 +742,7 @@ oopsla2021:
     - olukotun
     - amarasinghe
     - kjolstad
-  url: "https://dl-acm-org.stanford.idm.oclc.org/doi/abs/10.1145/3485505"
+  url: "https://dl.acm.org/doi/abs/10.1145/3485505"
   pdf: /publications/oopsla2021.pdf
   appendix: /publications/oopsla2021_appendix.pdf
   movie: https://youtu.be/sY_jEfaP8f4 
@@ -558,7 +757,7 @@ oopsla2021:
     <br>    address = {New York, NY, USA},
     <br>    volume = {5},
     <br>    number = {OOPSLA},
-    <br>    url = {https://doi-org.stanford.idm.oclc.org/10.1145/3485505},
+    <br>    url = {https://doi.org/10.1145/3485505},
     <br>    doi = {10.1145/3485505},
     <br>    abstract = {This paper shows how to compile sparse array programming languages.
     <br>    A sparse array programming language is an array programming language that
