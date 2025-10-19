@@ -1,3 +1,65 @@
+jssc2025:
+  title: "Onyx: A 12-nm Programmable Accelerator for Dense and Sparse Applications"
+  abstract: "<p>
+    Onyx is a system-on-chip (SoC) with a coarse-grained reconfigurable array
+    (CGRA) for accelerating sparse and dense tensor algebra and dense image
+    processing and machine learning (ML) applications. To support multiple inputs,
+    multiple dimensions, and fusion in sparse applications, Onyx utilizes
+    composable memory primitives that operate on compressed storage and streams and
+    compute primitives that eliminate unnecessary calculations. Onyx also improves
+    performance on dense applications with application-specialized processing
+    elements (PEs), area-optimized memory tiles, and hybrid clock gating in the
+    global buffer (GLB). Onyx achieves a peak energy efficiency of 756 INT16
+    GOPS/W, up to 565× better energy-delay product (EDP) for sparse kernels versus
+    CPUs with sparse libraries, and up to 76% and 85% lower EDP for image
+    processing and ML, respectively, versus the state-of-the-art CGRA.
+    </p>"
+  venue: "IEEE Journal of Solid-State Circuits (JSSC)"
+  year: 2025
+  month: September
+  url: "https://ieeexplore.ieee.org/abstract/document/11150697/"
+  pdf: /publications/jssc2025-onyx-accepted-version.pdf 
+  articlenote: The above PDF is the author-submitted accepted version of the article. The final published version can be found at the Article URL above.
+  authors: 
+    - koul
+    - hsu
+    - mei
+    - ravipatigautham
+    - strange
+    - melchert
+    - carsello
+    - kong
+    - chen
+    - ke
+    - zhangkeyi
+    - liu
+    - nyengele
+    - xie
+    - balasingam
+    - adivarahan 
+    - sharma
+    - torng
+    - emer
+    - kjolstad
+    - horowitz
+    - raina
+  bibtex: "@ARTICLE{11150697, 
+  <br>  author={Koul, Kalhan and Hsu, Olivia and Mei, Yuchen and
+  <br>  Gautham Ravipati, Sai and Strange, Maxwell and Melchert, Jackson and Carsello,
+  <br>  Alex and Kong, Taeyoung and Chen, Po-Han and Ke, Huifeng and Zhang, Keyi and
+  <br>  Liu, Qiaoyi and Nyengele, Gedeon and Xie, Zhouhua and Balasingam, Akhilesh and
+  <br>  Adivarahan, Jayashree and Sharma, Ritvik and Torng, Christopher and Emer, Joel
+  <br>  S. and Kjolstad, Fredrik and Horowitz, Mark and Raina, Priyanka}, journal={IEEE
+  <br>  Journal of Solid-State Circuits}, title={Onyx: A 12-nm Programmable Accelerator
+  <br>  for Dense and Sparse Applications}, year={2025}, volume={}, number={},
+  <br>  pages={1-13}, keywords={Tensors;Optical fiber
+  <br>  networks;Algebra;Kernel;Micromechanical devices;Integrated circuit
+  <br>  interconnections;Registers;System-on-chip;Repeaters;Machine
+  <br>  learning;Coarse-grained reconfigurable array (CGRA);compilers;computer
+  <br>  vision;image processing;machine learning (ML);reconfigurable
+  <br>  accelerators;sparse matrices}, doi={10.1109/JSSC.2025.3604724}}
+  </p>"
+
 icml2025:
   title: "Adaptive Self-improvement LLM Agentic System for ML Library Development"
   abstract: "<p>
@@ -17,7 +79,43 @@ icml2025:
     LLMs on this benchmark. Our results show improvements of up to over a baseline
     single LLM.
     </p>"
-  venue: "to appear in International Conference on Machine Learning (ICML)"
+  venue: "International Conference on Machine Learning (ICML)"
+  year: 2025
+  month: July
+  pdf: /publications/iclr-icml2025-adaptive-self-improvement.pdf 
+  authors: 
+    - zhanggenghan
+    - liangweixin
+    - hsu
+    - olukotun
+  bibtex: "@inproceedings{zhang2025adaptive,
+    <br>  title={Adaptive Self-improvement {LLM} Agentic System for {ML} Library Development},
+    <br>  author={Genghan Zhang and Weixin Liang and Olivia Hsu and Kunle Olukotun},
+    <br>  booktitle={Forty-second International Conference on Machine Learning},
+    <br>  year={2025},
+    <br>  url={https://openreview.net/forum?id=gdsZ3uMPsY}
+    <br>  }"
+
+icml2025esfomo:
+  title: "Adaptive Self-improvement LLM Agentic System for ML Library Development"
+  abstract: "<p>
+    ML libraries, often written in architecture-specific programming languages
+    (ASPLs) that target domain-specific architectures, are key to efficient ML
+    systems. However, writing these high-performance ML libraries is challenging
+    because it requires expert knowledge of both ML algorithms and the ASPL. Large
+    language models (LLMs), on the other hand, have shown general coding
+    capabilities. However, challenges remain when using LLMs for generating ML
+    libraries using ASPLs because 1) this task is complicated even for human
+    experts and 2) there are limited code examples due to the esoteric and evolving
+    nature of ASPLs. We present an adaptive self-improvement agentic system that
+    enables LLMs to perform such complex reasoning under limited data by
+    iteratively improving their capability through self-generated experience. In
+    order to evaluate the effectiveness of our system, we construct a benchmark of
+    a typical ML library and generate ASPL code with both open and closed-source
+    LLMs on this benchmark. Our results show improvements of up to over a baseline
+    single LLM.
+    </p>"
+  venue: International Conference on Machine Learning (ICML) Workshop on Efficient Systems for Foundation Models (ES-FoMo)
   year: 2025
   month: July
   pdf: /publications/iclr-icml2025-adaptive-self-improvement.pdf 
