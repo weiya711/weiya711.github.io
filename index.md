@@ -43,6 +43,14 @@ xhttp.send();
 </td>
 </table>
 
+> <mark><strong>Update</strong></mark> <span class="text-grey">November 3, 2025
+>
+> I’m thrilled to share that I’ll be joining **Carnegie Mellon University as an Assistant Professor** in Electrical and Computer Engineering (ECE) and, by courtesy, the Computer Science Department (CSD) starting Summer/Fall 2026.  
+>
+> **I’m actively recruiting Ph.D. students this upcoming cycle!** 
+> Please apply through the CMU ECE or CSD Ph.D. programs and mention my name in your application so it reaches me.
+
+
 
 I am a computer science PhD student at Stanford University advised by Professor 
 [Kunle Olukotun](https://profiles.stanford.edu/kunle-olukotun?tab=bio) 

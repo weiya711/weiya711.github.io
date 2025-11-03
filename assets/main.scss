@@ -19,3 +19,32 @@ pre {
   text-indent: 0;
   /* No universal hanging indent here—do it per block if desired */
 }
+
+/* Match homepage/awards blue highlight and typography */
+.text-grey {
+  color: rgba(35, 35, 35, 0.85); /* soft blue tint like award text */
+  font-family: inherit;
+  font-size: 0.9em;           /* same as body text */
+  line-height: 1.6;
+  font-style: normal;
+}
+
+/* Keep News block visually consistent with main text */
+mark {
+  background-color: rgba(0, 122, 204, 0.15); /* soft blue tint like award text */
+  color: inherit;
+  padding: 0 .25em;
+  border-radius: 0.15em;
+  font-size: 1.5em
+ } 
+
+blockquote {
+  border-left: 3px solid rgba(0, 122, 204, 0.35);
+  padding-left: 1em;
+  margin: 1.5em 0;
+  font-size: 1em;           /* same as body text */
+  line-height: 1.6;
+  font-style: normal;
+  color: inherit;
+  font-family: inherit;
+}
