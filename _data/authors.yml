@@ -10,9 +10,16 @@ adivarahan:
   name: Jayashree Adivarahan
   site: https://www.linkedin.com/in/jayashree-adivarahan/
 
+allen-randy: 
+  name: Randy Allen
+  
 amarasinghe:
   name: Saman Amarasinghe
   site: http://people.csail.mit.edu/saman/
+
+armejach-adria:
+  name: Adria Armejach
+  site: https://personals.ac.upc.edu/adria/
 
 #B
 balasingam:
@@ -25,6 +32,9 @@ bansal:
 bhargava:
   name: Pavan Bhargava
   site: https://www.linkedin.com/in/pavan-bhargava-691a3925/
+
+biscondi-eric:
+  name: Eric Biscondi
 
 buchbinder:
   name: Sidney Buchbinder
@@ -60,6 +70,9 @@ ejjeh:
   site: https://www.linkedin.com/in/adel-ejjeh
 #F
 #G
+grasset-arnaud:
+  name: Arnaud Grasset
+
 #H
 hanrahan:
   name: Pat Hanrahan
@@ -75,7 +88,12 @@ horowitz:
   name: Mark Horowitz
   site: https://vlsi.stanford.edu/people/mark-horowitz
 #I
+
 #J
+joseph-doug:
+  name: Doug Joseph
+  site: https://www.linkedin.com/in/doug-joseph-9894a71a/
+
 #K
 ke:
   name: Jake Ke
@@ -120,6 +138,10 @@ melchert:
   name: Jackson Melchert
   site: https://www.linkedin.com/in/jack-melchert-a97475226/
 
+moreto-planas:
+  name: Miquel Moreto Planas
+  site: https://personals.ac.upc.edu/mmoreto/index.htm
+
 #N  
 nardi:
   name: Luigi Nardi
@@ -148,6 +170,9 @@ ranade:
   name: Gireeja Ranade
   site: http://people.eecs.berkeley.edu/~gireeja/
 
+randall-joshua:
+  name: Joshua Randall
+
 ravipatigautham:
   name: Sai Gautham Ravipati
 
@@ -158,7 +183,18 @@ rucker:
 #S
 sharma:
   name: Ritvik Sharma
-  site: https://www.linkedin.com/in/ritvik-sharma-863090144/?originalSubdomain=in
+  site: https://www.linkedin.com/in/ritvik-sharma-863090144/
+
+siracusa-marco:
+  name: Marco Siracusa
+  site: https://www.linkedin.com/in/marco-siracusa-84a501187/
+
+soria-pardos:
+  name: Victor Soria-Pardos
+
+souza:
+  name: Artur Souza
+
 
 steuwer:
   name: Michel Steuwer
@@ -172,14 +208,11 @@ strange:
   name: Maxwell Strange
   site: https://www.linkedin.com/in/maxwell-strange-4b670369/
 
-souza:
-  name: Artur Souza
-
+#T
 torng:
   name: Christopher Torng
   site: https://ctorng.com
 
-#T
 tudor: 
   name: Ana Tudor
   site: https://www.linkedin.com/in/ana-tudor/

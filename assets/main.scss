@@ -3,3 +3,19 @@
 ---
 
 @import "minima";
+
+pre {
+  white-space: pre-wrap;       /* Preserve formatting but allow wrapping */
+  word-wrap: break-word;       /* Break long words if needed */
+  overflow-wrap: break-word;
+}
+
+.highlight pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+pre {
+  text-indent: 0;
+  /* No universal hanging indent here—do it per block if desired */
+}
