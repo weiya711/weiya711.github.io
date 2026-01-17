@@ -52,9 +52,10 @@ xhttp.send();
 
 
 
-I am a computer science PhD student at Stanford University advised by Professor 
+I am a computer science postdoc at Stanford University and an incoming assistant professor at CMU. Previously, I received my PhD from Stanford University, 
+advised by Professors
 [Kunle Olukotun](https://profiles.stanford.edu/kunle-olukotun?tab=bio) 
-and Professor [Fredrik Kjolstad](http://fredrikbk.com). 
+and [Fredrik Kjolstad](http://fredrikbk.com). 
 I currently work on mapping and compiling sparse applications to domain-specific
 hardware, architectures, and accelerators. My research interests also broadly include
 computer 
