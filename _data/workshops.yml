@@ -1,0 +1,146 @@
+icml2025esfomo:
+  title: "Adaptive Self-improvement LLM Agentic System for ML Library Development"
+  abstract: "<p>
+    ML libraries, often written in architecture-specific programming languages
+    (ASPLs) that target domain-specific architectures, are key to efficient ML
+    systems. However, writing these high-performance ML libraries is challenging
+    because it requires expert knowledge of both ML algorithms and the ASPL. Large
+    language models (LLMs), on the other hand, have shown general coding
+    capabilities. However, challenges remain when using LLMs for generating ML
+    libraries using ASPLs because 1) this task is complicated even for human
+    experts and 2) there are limited code examples due to the esoteric and evolving
+    nature of ASPLs. We present an adaptive self-improvement agentic system that
+    enables LLMs to perform such complex reasoning under limited data by
+    iteratively improving their capability through self-generated experience. In
+    order to evaluate the effectiveness of our system, we construct a benchmark of
+    a typical ML library and generate ASPL code with both open and closed-source
+    LLMs on this benchmark. Our results show improvements of up to over a baseline
+    single LLM.
+    </p>"
+  venue: to appear in International Conference on Machine Learning (ICML) Workshop on Efficient Systems for Foundation Models (ES-FoMo)
+  year: 2025
+  month: July
+  pdf: /publications/iclr-icml2025-adaptive-self-improvement.pdf 
+  authors: 
+    - zhanggenghan
+    - liangweixin
+    - hsu
+    - olukotun
+  bibtex: "@inproceedings{zhang2025adaptive,
+    <br>  title={Adaptive Self-improvement {LLM} Agentic System for {ML} Library Development},
+    <br>  author={Genghan Zhang and Weixin Liang and Olivia Hsu and Kunle Olukotun},
+    <br>  booktitle={Forty-second International Conference on Machine Learning},
+    <br>  year={2025},
+    <br>  url={https://openreview.net/forum?id=gdsZ3uMPsY}
+    <br>  }"
+
+  
+iclr2025llm:
+  title: "Adaptive Self-improvement LLM Agentic System for ML Library Development"
+  abstract: "<p>
+    ML libraries, often written in architecture-specific programming languages
+    (ASPLs) that target domain-specific architectures, are key to efficient ML
+    systems. However, writing these high-performance ML libraries is challenging
+    because it requires expert knowledge of both ML algorithms and the ASPL. Large
+    language models (LLMs), on the other hand, have shown general coding
+    capabilities. However, challenges remain when using LLMs for generating ML
+    libraries using ASPLs because 1) this task is complicated even for human
+    experts and 2) there are limited code examples due to the esoteric and evolving
+    nature of ASPLs. We present an adaptive self-improvement agentic system that
+    enables LLMs to perform such complex reasoning under limited data by
+    iteratively improving their capability through self-generated experience. In
+    order to evaluate the effectiveness of our system, we construct a benchmark of
+    a typical ML library and generate ASPL code with both open and closed-source
+    LLMs on this benchmark. Our results show improvements of up to over a baseline
+    single LLM.
+    </p>"
+  venue: "International Conference on Learning Representations (ICLR) Workshop on Reasoning and Planning for LLMs"
+  year: 2025
+  month: May
+  pdf: /publications/iclr-icml2025-adaptive-self-improvement.pdf 
+  authors: 
+    - zhanggenghan
+    - liangweixin
+    - hsu
+    - olukotun
+  
+iclr2025dl4c:
+  title: "Adaptive Self-improvement LLM Agentic System for ML Library Development"
+  abstract: "<p>
+    ML libraries, often written in architecture-specific programming languages
+    (ASPLs) that target domain-specific architectures, are key to efficient ML
+    systems. However, writing these high-performance ML libraries is challenging
+    because it requires expert knowledge of both ML algorithms and the ASPL. Large
+    language models (LLMs), on the other hand, have shown general coding
+    capabilities. However, challenges remain when using LLMs for generating ML
+    libraries using ASPLs because 1) this task is complicated even for human
+    experts and 2) there are limited code examples due to the esoteric and evolving
+    nature of ASPLs. We present an adaptive self-improvement agentic system that
+    enables LLMs to perform such complex reasoning under limited data by
+    iteratively improving their capability through self-generated experience. In
+    order to evaluate the effectiveness of our system, we construct a benchmark of
+    a typical ML library and generate ASPL code with both open and closed-source
+    LLMs on this benchmark. Our results show improvements of up to over a baseline
+    single LLM.
+    </p>"
+  venue: "Deep Learning for Code (DL4C) Workshop at International Conference on Learning Representations (ICLR)"
+  year: 2025
+  month: May
+  pdf: /publications/iclr-icml2025-adaptive-self-improvement.pdf 
+  award: "Spotlight: Best Paper Award"
+  authors: 
+    - zhanggenghan
+    - liangweixin
+    - hsu
+    - olukotun
+
+plarch2023:
+  title: "Challenges with Hardware-Software Co-design for Sparse Machine Learning on Streaming Dataflow"
+  venue: "Workshop on Programming Languages and Architecture (PLARCH) co-located with FCRC/ISCA/PLDI 2023"
+  abstract: "<p>
+    This paper details the problem landscape that arises from using a general
+    tensor algebra accelerator framework to compute real-world end-to-end machine
+    learning applications. We identify three key challenges for correctness and
+    performance, which include support for tensor reshaping and nonlinear
+    operations, dataflow optimization (kernel fusion, optimal dataflow order), and
+    leveraging sparsity structure. This paper motivates the need to address these
+    problems in the domain-specific language, compiler framework, and architectural
+    design for sparse machine learning. We extended a general tensor algebra
+    compiler and architectural model, the Sparse Abstract Machine, to real-world
+    sparse machine learning models in order to identify the key challenges above. 
+    <p>"
+  year: 2023
+  month: June
+  pdf: /publications/plarch2023.pdf
+  authors:
+    - lacouture
+    - hsu
+    - olukotun
+    - kjolstad
+  movie: https://www.youtube.com/watch?v=eiYtlmeSGCY&ab_channel=ACMSIGPLAN
+  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/eiYtlmeSGCY?si=YqMqNgUv3CoNKoM-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+latte2023:
+  title: Designing a Dataflow Hardware Accelerator with an Abstract Machine 
+  venue: "Workshop on Languages, Tools, and Techniques for Accelerator Design (LATTE) co-located with ASPLOS 2023"
+  abstract: "<p>
+    This paper motivates the use of domain-specific abstract machines for designing hardware accelerators. Specifically, we
+    describe how we built a reconfigurable dataflow accelerator
+    for sparse tensor algebra, a relatively complex domain, using
+    the Sparse Abstract Machine (SAM). We show that leveraging an abstract dataflow representation (and its compiler)
+    lead to a slew of benefits, including computational generality within the application domain, easier verification and
+    debugging, boosted design productivity, and decoupled development of the toolchain from the hardware design and
+    generation. These benefits allowed us to build the accelerator
+    within a short time-frame with only two designers.
+    <p>"
+  year: 2023
+  pdf: /publications/latte2023-sparse-cgra.pdf
+  month: March
+  authors:
+    - hsu
+    - strange
+    - olukotun
+    - horowitz
+    - kjolstad
+  movie: https://youtu.be/0rBjQG8z7Dc
+  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/0rBjQG8z7Dc?si=iqzXVC5Y5UEI21Iv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

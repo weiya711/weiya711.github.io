@@ -87,6 +87,11 @@ hellsten:
 horowitz:
   name: Mark Horowitz
   site: https://vlsi.stanford.edu/people/mark-horowitz
+
+hossfeld-kons:
+  name: Konstantin Hossfeld
+  site: https://www.linkedin.com/in/konstantin-hossfeld-b08613202/
+
 #I
 
 #J
@@ -97,6 +102,10 @@ joseph-doug:
 #K
 ke:
   name: Jake Ke
+
+kim-jungwoo: 
+  name: Jungwoo Kim
+  site: https://www.jungwoo.kim/
 
 kjolstad:
   name: Fredrik Kjolstad
@@ -189,12 +198,19 @@ siracusa-marco:
   name: Marco Siracusa
   site: https://www.linkedin.com/in/marco-siracusa-84a501187/
 
+sobotka-nathan:
+  name: Nathan Sobotka
+  site: https://nsobotka.github.io/
+
+sohn-gina:
+  name: Gina Sohn
+  site: https://gina7484.github.io/
+
 soria-pardos:
   name: Victor Soria-Pardos
 
 souza:
   name: Artur Souza
-
 
 steuwer:
   name: Michel Steuwer
@@ -255,6 +271,10 @@ zhanggenghan:
 zhangkeyi:
   name: Keyi Zhang
   site: https://keyizhang.com/
+
+zhang-nathan:
+  name: Nathan Zhang
+  site: https://www.linkedin.com/in/nzhang32/
 
 zhao:
   name: Tian Zhao
