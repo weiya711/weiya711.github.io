@@ -11,7 +11,7 @@ layout: home
 Postdoctoral Researcher<br/>
 Department of Computer Science<br/>
 Stanford University<br/>
-Office: 494 Gates<br/>
+Office: E454 CoDA<br/>
 <a href="mailto:owhsu@stanford.edu">owhsu [at] stanford [dot] edu</a><br/>
 <a href="/assets/owhsu-cv.pdf">Curriculum Vitae</a>
 <div id=siteUpdate> </div>
