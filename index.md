@@ -8,7 +8,7 @@ layout: home
 <img src="/assets/owhsu.jpg" width="160">
 </td>
 <td valign="top">
-PhD Student<br/>
+Postdoctoral Researcher<br/>
 Department of Computer Science<br/>
 Stanford University<br/>
 Office: 494 Gates<br/>
