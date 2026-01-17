@@ -52,7 +52,7 @@ xhttp.send();
 
 
 
-I am a computer science postdoc at Stanford University and an incoming assistant professor at CMU. Previously, I received my PhD from Stanford University, 
+I am a computer science postdoc at Stanford University and an incoming assistant professor at Carnegie Mellon University. Previously, I received my PhD from Stanford University, 
 advised by Professors
 [Kunle Olukotun](https://profiles.stanford.edu/kunle-olukotun?tab=bio) 
 and [Fredrik Kjolstad](http://fredrikbk.com). 
