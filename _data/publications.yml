@@ -21,6 +21,7 @@ asplos2026fuseflow:
     </p>" 
   venue: "to appear in International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)"
   year: 2026
+  pdf: /publications/asplos2026fuseflow.pdf 
   authors:
     - lacouture
     - zhang-nathan
@@ -31,7 +32,7 @@ asplos2026fuseflow:
     - hsu
 
 asplos2026step: 
-  title: "Streaming Tensor Program: A streaming abstraction for dynamic parallelism"
+  title: "Streaming Tensor Programs: A Streaming Abstraction for Dynamic Parallelism"
   abstract: "<p>
     Dynamic behaviors are becoming prevalent in many tensor applications, like
     machine learning, where many widely used models contain data-dependent tensor
@@ -53,6 +54,7 @@ asplos2026step:
   </p>"
   venue: "to appear in International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)"
   year: 2026
+  pdf: /publications/asplos2026step.pdf 
   authors:
     - sohn-gina
     - zhanggenghan

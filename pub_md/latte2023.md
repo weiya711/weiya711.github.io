@@ -1,5 +1,5 @@
 ---
-layout: pub
-categories: publications
+layout: workshops
+categories: workshops
 ---
 
