@@ -45,30 +45,31 @@ xhttp.send();
 
 > <mark><strong>Update</strong></mark> <span class="text-grey">November 3, 2025
 >
-> I’m thrilled to share that I’ll be joining **Carnegie Mellon University as an Assistant Professor** in Electrical and Computer Engineering (ECE) and, by courtesy, the Computer Science Department (CSD) starting Summer/Fall 2026.  
+> I’m thrilled to share that I’ll be joining **Carnegie Mellon University as an Assistant Professor** in Electrical and Computer Engineering (ECE) and, by courtesy, the Computer Science Department (CSD) starting Summer 2026.  
 >
 > **I’m actively recruiting Ph.D. students this upcoming cycle!** 
 > Please apply through the CMU ECE or CSD Ph.D. programs and mention my name in your application so it reaches me.
 
 
-
 I am a computer science postdoc at Stanford University and an incoming assistant professor at Carnegie Mellon University. Previously, I received my PhD from Stanford University, 
-advised by Professors
+adised by Professors
 [Kunle Olukotun](https://profiles.stanford.edu/kunle-olukotun?tab=bio) 
 and [Fredrik Kjolstad](http://fredrikbk.com). 
-I currently work on mapping and compiling sparse applications to domain-specific
-hardware, architectures, and accelerators. My research interests also broadly include
-computer 
-architecture, computer and programming systems, compilers, 
-programming models and languages, and digital circuits/VLSI.
 
-I graduated from the University of California, Berkeley in 2019 with a degree
-in Electrical Engineering and Computer Science (EECS).  At Berkeley, I was
-fortunate enough to be advised by Professor [Vladimir
-Stojanovic](https://www2.eecs.berkeley.edu/Faculty/Homepages/vlada.html) and
-work with [Panagiotis
-Zarkos](https://www.linkedin.com/in/panagiotis-zarkos-0a51a7ba/) on novel
-applications of silicon-photonics.  
+My vision is a world where domain-specific hardware is used efficiently,
+easily, and to its full potential. Hardware adoption should be limited by its
+design, not its programming system, and new architecture ideas should be ready to use
+well at the time of its introduction. Toward this goal, I work on hardware and
+software systems that efficiently run complex, data-dependent applications
+(think sparse and dynamic ML workloads) on next-generation, domain-specific
+hardware (think heterogeneous, distributed, and accelerator architectures).
+During my PhD, I worked on one instance of this problem by studying 
+[Programming Systems for Sparse Accelerators](https://weiya711.github.io/assets/owhsu-thesis.pdf).
+
+My research interests broadly lie at the intersection of computer architecture,
+programming systems, compilers, programming languages/models, and digital
+circuits/VLSI.
+
 
 <h2 class="tableheading">Publications (Refereed)</h2>
 
