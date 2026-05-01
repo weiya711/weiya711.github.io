@@ -8,11 +8,11 @@ layout: home
 <img src="/assets/owhsu.jpg" width="160">
 </td>
 <td valign="top">
-Postdoctoral Researcher<br/>
-Department of Computer Science<br/>
-Stanford University<br/>
-Office: E454 CoDA<br/>
-<a href="mailto:owhsu@stanford.edu">owhsu [at] stanford [dot] edu</a><br/>
+Assistant Professor<br/>
+Carnegie Mellon University<br/>
+ECE and courtesy CS<br/> 
+Office: CIC 4121<br/>
+<a href="mailto:owh@cmu.edu">owh [at] cmu [dot] edu</a><br/>
 <a href="/assets/owhsu-cv.pdf">Curriculum Vitae</a>
 <div id=siteUpdate> </div>
 <script>
@@ -43,16 +43,14 @@ xhttp.send();
 </td>
 </table>
 
-> <mark><strong>Update</strong></mark> <span class="text-grey">November 3, 2025
+> <mark><strong>Update</strong></mark> <span class="text-grey">April 29, 2026
 >
-> I’m thrilled to share that I’ll be joining **Carnegie Mellon University as an Assistant Professor** in Electrical and Computer Engineering (ECE) and, by courtesy, the Computer Science Department (CSD) starting Summer 2026.  
->
-> **I’m actively recruiting Ph.D. students this upcoming cycle!** 
-> Please apply through the CMU ECE or CSD Ph.D. programs and mention my name in your application so it reaches me.
+> My friend and collaborator, [Kalhan Koul](https://www.linkedin.com/in/kalhan-koul/), recently wrote an IEEE Spectrum
+> feature article on our research in hardware for sparse AI. It's a quick
+> read and has some very interesting artwork, take a look [here](https://spectrum.ieee.org/sparse-ai) 
 
-
-I am a computer science postdoc at Stanford University and an incoming assistant professor at Carnegie Mellon University. Previously, I received my PhD from Stanford University, 
-adised by Professors
+I am an assistant professor at Carnegie Mellon University in the department of Electrical and Computer Engineering and, by courtesy, Computer Science. Previously, I received my PhD from Stanford University, 
+advised by Professors
 [Kunle Olukotun](https://profiles.stanford.edu/kunle-olukotun?tab=bio) 
 and [Fredrik Kjolstad](http://fredrikbk.com). 
 
@@ -71,7 +69,7 @@ programming systems, compilers, programming languages/models, and digital
 circuits/VLSI.
 
 
-<h2 class="tableheading">Publications (Refereed)</h2>
+<h2 class="tableheading">Publications</h2>
 
 <table border="0">
   {% for pub_keyval in site.data.publications %}
@@ -120,101 +118,6 @@ circuits/VLSI.
     </tr>
 {% endfor %}
 </table>
-
-<h2 class="tableheading">Workshops (Non-archival)</h2>
-
-<table border="0">
-  {% for pub_keyval in site.data.workshops %}
-    <tr>
-      {%- assign pub = pub_keyval[1] -%}
-      <td>
-        <b><a href="pub_md/{{pub_keyval[0]}}.html" style="color: #464646">{{ pub.title }}</a></b><br/>
-        {%- for author in pub.authors -%}
-          {%- if forloop.last == true and forloop.length > 1 %}
-            and
-          {%- endif %}
-          {%- if author == "hsu" %}
-            <b><font color="#000000">{{ site.data.authors[author].name }}</font></b>
-          {%- else %}
-            <a href="{{- site.data.authors[author].site -}}" style="color: #464646">{{ site.data.authors[author].name }}</a>
-          {%- endif -%}
-          {%- if forloop.last == false and forloop.length > 2 -%}
-            ,
-          {%- endif %}
-        {%- endfor -%}<br/>
-        <i>{{ pub.venue }}
-        {%- if pub.venuenote %}
-        ({{ pub.venuenote }})
-        {%- endif -%}
-        {%- if pub.volume -%}
-        , Volume {{ pub.volume }}
-        {%- endif -%}
-        {%- if pub.issue -%}
-        , Issue {{ pub.issue }}
-        {%- endif -%}
-        </i>, {{ pub.month }} {{ pub.year }}<br/>
-        {%- if pub.award -%}
-          <span style="color:#0096FF"><b>{{ pub.award }}</b></span><br/>
-        {%- endif -%}
-      </td>
-      <td valign="top" width="20">
-        {% if pub.pdf %}
-            <a href="{{ pub.pdf }}"><img src="/assets/PDF_icon.svg" alt="pdf" /></a>
-	{% elsif pub.url %}
-            <a href="{{ pub.url }}"><img src="/assets/PDF_icon.svg" alt="pdf" /></a>
-        {% endif %}
-        {% if pub.movie %}
-          <a href="{{ pub.movie }}"><img src="/assets/movie.png" alt="youtube" /></a>
-        {% endif %}
-      </td>
-    </tr>
-{% endfor %}
-</table>
-
-<h2 class="tableheading">Talks</h2>
-<table border="0">
-{%- for talk_keyval in site.data.talks %}
-  {%- assign talk= talk_keyval[1] -%}
-  <tr>
-  <td> 
-    <b>
-    {% if talk.url %}
-	<a href="{{talk.url}}">{{talk.title}}</a></b>
-    {%- else %}
-    {{talk.title}}</b>
-    {%- endif -%}
-	<br/>{{talk.month}} {{talk.year}} 
-    <br/>{{talk.venue}}
-    <td valign="top" width="20">
-    {% if talk.movie %}
-      <a href="{{ talk.movie }}"><img src="/assets/movie.png" alt="youtube" /></a>
-    {% endif %}
-    </td>
-  </td>
-  </tr>
-{% endfor %}
-</table>
-
-<h2 class="tableheading">Teaching</h2>
-<table border="0">
-{%- for teaching_keyval in site.data.teaching %}
-  {%- assign teaching= teaching_keyval[1] -%}
-  <tr>
-  <td> 
-    <b>
-    {% if teaching.url %}
-	<a href="{{teaching.url}}">{{teaching.title}}</a></b>
-    {%- else %}
-	{{teaching.title}}</b>
-    {%- endif -%}
-	<br/>{{teaching.month}} {{teaching.year}}, {{teaching.venue}}
-  </td>
-  </tr>
-{% endfor %}
-</table>
-
-[comment]: <> <h2 class="tableheading">Projects</h2>
-[comment]: <> Boop beep boop... Work in progress. Check again soon!
 
 <h2 class="tableheading">Press</h2>
 
