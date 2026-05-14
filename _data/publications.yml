@@ -19,7 +19,7 @@ asplos2026fuseflow:
     achieve performance improvements, including a ∼2.7x speedup over an unfused
     baseline for GPT-3 with BigBird block-sparse attention.
     </p>" 
-  venue: "to appear in International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)"
+  venue: "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)"
   year: 2026
   pdf: /publications/asplos2026fuseflow.pdf 
   authors:
@@ -52,7 +52,7 @@ asplos2026step:
     ∼2.72x, and configuration time-multiplexing that increases compute utilization
     by ∼2.64x over prior SDA abstractions and their implementations.
   </p>"
-  venue: "to appear in International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)"
+  venue: "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)"
   year: 2026
   pdf: /publications/asplos2026step.pdf 
   authors:
@@ -81,7 +81,7 @@ cgo2026:
     optimizations to match the performance of hand-written code, unlocking the full
     potential of DAE architectures at scale.
     </p>"
-  venue: "to appear in International Symposium on Code Generation and Optimization (CGO)"
+  venue: "International Symposium on Code Generation and Optimization (CGO)"
   url: "https://arxiv.org/abs/2504.09870"
   year: 2026
   authors:
