@@ -45,7 +45,7 @@ xhttp.send();
 
 > <mark><strong>Update</strong></mark> <span class="text-grey">April 29, 2026
 >
-> My friend and collaborator, [Kalhan Koul](https://www.linkedin.com/in/kalhan-koul/), recently wrote an IEEE Spectrum
+> My friend and collaborator, [Kalhan Koul](https://www.linkedin.com/in/kalhan-koul/), and I recently wrote an IEEE Spectrum
 > feature article on our research in hardware for sparse AI. It's a quick
 > read and has some very interesting artwork, take a look [here](https://spectrum.ieee.org/sparse-ai) 
 
