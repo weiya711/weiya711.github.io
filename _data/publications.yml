@@ -1,3 +1,66 @@
+neurips2026mstar:
+  title: "M*: A Modular, Extensible, Serving System for Multimodal Models"
+  abstract: "<p>
+    M* is a modular serving system for composite multimodal models, including
+    models for image generation, speech, and robotic planning. Its Walk Graph
+    abstraction represents model components as a dataflow graph and requests as
+    graph traversals, supporting flexible component placement and distributed
+    runtime optimizations. Compared with vLLM-Omni, M* achieves 20% lower average
+    end-to-end latency on BAGEL text-to-image workloads and up to 2.9x lower
+    real-time factor and 2.7x higher throughput on Qwen3-Omni text-to-speech
+    workloads. It also accelerates V-JEPA 2-AC robotic planning rollouts by up to
+    12.5x over the baseline.
+    </p>"
+  venue: "to appear in Conference on Neural Information Processing Systems (NeurIPS)"
+  year: 2026
+  month: December
+  url: "https://arxiv.org/abs/2606.12688"
+  pdf: "https://arxiv.org/pdf/2606.12688"
+  authors:
+    - jha-atindra
+    - sagan-naomi
+    - kamahori-keisuke
+    - sivgin-irmak
+    - sanda-rohan
+    - gao-steven
+    - horowitz
+    - zettlemoyer-luke
+    - hsu
+    - leskovec-jure
+    - kasikci-baris
+    - wang-stephanie
+
+iiswc2026agentpim:
+  title: "How Far Can PIMs Replace GPUs in Energy-Efficient Multi-Turn Agent Serving?"
+  abstract: "<p>
+    Multi-turn agent workloads reuse an expanding
+    context across turns, allowing prefix caching to reduce redundant
+    prefill. The resulting decode-heavy execution is well suited to
+    Processing-In-Memory (PIM), but replacing GPUs with PIM also
+    reduces prefill compute and GPU memory for reusable KVs.
+    We characterize GPU-to-PIM replacement across six agent
+    workloads using a disaggregated serving model. Our results show
+    that decode share alone does not determine how many GPUs can
+    be replaced. The replacement limit instead depends on fresh
+    prefill volume and the live-session KV working set across tool
+    gaps. We further evaluate Session-KV residency, which retains
+    reusable KVs on PIM to avoid recomputing GPU-evicted prefixes.
+    Session-KV residency reduces energy by up to 78% and latency
+    by up to 67% relative to the same GPU-PIM configuration
+    without residency. These results call for provisioning GPU-PIM
+    pools via fresh-prefill volume and live-session KV working set
+    rather than by decode share alone.
+    </p>"
+  venue: "IEEE International Symposium on Workload Characterization (IISWC)"
+  year: 2026
+  pdf: /publications/iiswc2026agentpim.pdf
+  authors:
+     - hong-junwha
+     - heo-guseul
+     - ye-hyunsu
+     - park-jongse
+     - hsu 
+
 asplos2026fuseflow: 
   title: "FuseFlow: A Fusion-Centric Compilation Framework for Sparse Deep Learning on Streaming Dataflow"
   abstract: "<p>
@@ -948,4 +1011,3 @@ cleo2019:
     <br>    pages={1-2},
     <br>    doi={10.1364/CLEO_AT.2019.JW2A.78}
     }"
-

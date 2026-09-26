@@ -1,98 +1,78 @@
-icml2025esfomo:
-  title: "Adaptive Self-improvement LLM Agentic System for ML Library Development"
+# Shared paper fields live in publications[publication] when a reference is set.
+# Otherwise, keep title, authors, abstract, and PDF directly on this entry.
+# Use main-conference author order when available; otherwise use the most recent appearance.
+# Venue-specific dates, awards, links, and citations belong to each appearance.
+latte2026interactive:
+  title: "Interactive Compiler Scheduling with Strong Guarantees"
   abstract: "<p>
-    ML libraries, often written in architecture-specific programming languages
-    (ASPLs) that target domain-specific architectures, are key to efficient ML
-    systems. However, writing these high-performance ML libraries is challenging
-    because it requires expert knowledge of both ML algorithms and the ASPL. Large
-    language models (LLMs), on the other hand, have shown general coding
-    capabilities. However, challenges remain when using LLMs for generating ML
-    libraries using ASPLs because 1) this task is complicated even for human
-    experts and 2) there are limited code examples due to the esoteric and evolving
-    nature of ASPLs. We present an adaptive self-improvement agentic system that
-    enables LLMs to perform such complex reasoning under limited data by
-    iteratively improving their capability through self-generated experience. In
-    order to evaluate the effectiveness of our system, we construct a benchmark of
-    a typical ML library and generate ASPL code with both open and closed-source
-    LLMs on this benchmark. Our results show improvements of up to over a baseline
-    single LLM.
+    This work explores interactive synthesis of compiler schedules for hardware
+    accelerators. Using Programming by Navigation and the FuseFlow sparse machine
+    learning compiler, the prototype guides users through valid scheduling choices
+    while preserving access to every valid schedule supported by its library.
+    The approach combines programmer control with guarantees that intermediate
+    choices can lead to a valid schedule.
     </p>"
-  venue: to appear in International Conference on Machine Learning (ICML) Workshop on Efficient Systems for Foundation Models (ES-FoMo)
-  year: 2025
-  month: July
-  pdf: /publications/iclr-icml2025-adaptive-self-improvement.pdf 
-  authors: 
-    - zhanggenghan
-    - liangweixin
+  pdf: https://capra.cs.cornell.edu/latte26/paper/latte26-final6.pdf
+  authors:
+    - williams-evan
+    - lubin-justin
+    - lacouture
     - hsu
-    - olukotun
-  bibtex: "@inproceedings{zhang2025adaptive,
-    <br>  title={Adaptive Self-improvement {LLM} Agentic System for {ML} Library Development},
-    <br>  author={Genghan Zhang and Weixin Liang and Olivia Hsu and Kunle Olukotun},
-    <br>  booktitle={Forty-second International Conference on Machine Learning},
-    <br>  year={2025},
-    <br>  url={https://openreview.net/forum?id=gdsZ3uMPsY}
-    <br>  }"
+  appearances:
+    - venue: Workshop on Languages, Tools, and Techniques for Accelerator Design (LATTE) co-located with ASPLOS
+      year: 2026
+      month: March
+    - title: "Interactive Design Space Exploration for Sparse Accelerators"
+      venue: Young Architect Workshop (YArch) co-located with ISCA
+      year: 2026
+      month: June
 
-  
-iclr2025llm:
-  title: "Adaptive Self-improvement LLM Agentic System for ML Library Development"
+latte2026tiling:
+  title: "Portable Dynamic Tiling for Sparse Tensor Accelerators"
   abstract: "<p>
-    ML libraries, often written in architecture-specific programming languages
-    (ASPLs) that target domain-specific architectures, are key to efficient ML
-    systems. However, writing these high-performance ML libraries is challenging
-    because it requires expert knowledge of both ML algorithms and the ASPL. Large
-    language models (LLMs), on the other hand, have shown general coding
-    capabilities. However, challenges remain when using LLMs for generating ML
-    libraries using ASPLs because 1) this task is complicated even for human
-    experts and 2) there are limited code examples due to the esoteric and evolving
-    nature of ASPLs. We present an adaptive self-improvement agentic system that
-    enables LLMs to perform such complex reasoning under limited data by
-    iteratively improving their capability through self-generated experience. In
-    order to evaluate the effectiveness of our system, we construct a benchmark of
-    a typical ML library and generate ASPL code with both open and closed-source
-    LLMs on this benchmark. Our results show improvements of up to over a baseline
-    single LLM.
+    LEGO is a compiler for generating dynamic tiling algorithms for sparse tensor
+    accelerators. Users describe policies that adjust tile boundaries in response
+    to sparse structural properties, separating those policies from tensor
+    expressions, storage formats, and accelerator-specific dispatch code. This
+    separation makes policies reusable across workloads and backends. In an
+    ExTensor simulation, tiles from a generated Dynamic Reflexive Tiling-style
+    algorithm achieve runtimes within 1% of the handwritten baseline.
     </p>"
-  venue: "International Conference on Learning Representations (ICLR) Workshop on Reasoning and Planning for LLMs"
-  year: 2025
-  month: May
-  pdf: /publications/iclr-icml2025-adaptive-self-improvement.pdf 
-  authors: 
-    - zhanggenghan
-    - liangweixin
+  pdf: https://capra.cs.cornell.edu/latte26/paper/latte26-final23.pdf
+  authors:
+    - ravipatigautham
+    - kjolstad
+    - raina
     - hsu
-    - olukotun
-  
-iclr2025dl4c:
-  title: "Adaptive Self-improvement LLM Agentic System for ML Library Development"
-  abstract: "<p>
-    ML libraries, often written in architecture-specific programming languages
-    (ASPLs) that target domain-specific architectures, are key to efficient ML
-    systems. However, writing these high-performance ML libraries is challenging
-    because it requires expert knowledge of both ML algorithms and the ASPL. Large
-    language models (LLMs), on the other hand, have shown general coding
-    capabilities. However, challenges remain when using LLMs for generating ML
-    libraries using ASPLs because 1) this task is complicated even for human
-    experts and 2) there are limited code examples due to the esoteric and evolving
-    nature of ASPLs. We present an adaptive self-improvement agentic system that
-    enables LLMs to perform such complex reasoning under limited data by
-    iteratively improving their capability through self-generated experience. In
-    order to evaluate the effectiveness of our system, we construct a benchmark of
-    a typical ML library and generate ASPL code with both open and closed-source
-    LLMs on this benchmark. Our results show improvements of up to over a baseline
-    single LLM.
-    </p>"
-  venue: "Deep Learning for Code (DL4C) Workshop at International Conference on Learning Representations (ICLR)"
-  year: 2025
-  month: May
-  pdf: /publications/iclr-icml2025-adaptive-self-improvement.pdf 
-  award: "Spotlight: Best Paper Award"
-  authors: 
-    - zhanggenghan
-    - liangweixin
-    - hsu
-    - olukotun
+  appearances:
+    - venue: Workshop on Languages, Tools, and Techniques for Accelerator Design (LATTE) co-located with ASPLOS
+      year: 2026
+      month: March
+    - title: "Portable Dynamic Tiling for Sparse Tensor Applications"
+      venue: Young Architect Workshop (YArch) co-located with ISCA
+      year: 2026
+      month: June
+
+spice2025fuseflow:
+  publication: asplos2026fuseflow
+  appearances:
+    - venue: Sparsity, the Key Ingredient from HPC to Efficient LLMs (SPICE) Workshop co-located with MICRO
+      year: 2025
+      month: October
+
+icml2025esfomo:
+  publication: icml2025
+  appearances:
+    - venue: International Conference on Machine Learning (ICML) Workshop on Efficient Systems for Foundation Models (ES-FoMo)
+      year: 2025
+      month: July
+    - venue: International Conference on Learning Representations (ICLR) Workshop on Reasoning and Planning for LLMs
+      year: 2025
+      month: May
+    - venue: Deep Learning for Code (DL4C) Workshop at International Conference on Learning Representations (ICLR)
+      year: 2025
+      month: May
+      award: "Spotlight: Best Paper Award"
 
 plarch2023:
   title: "Challenges with Hardware-Software Co-design for Sparse Machine Learning on Streaming Dataflow"

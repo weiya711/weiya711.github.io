@@ -11,7 +11,7 @@ permalink: /publications/
     <tr>
       {%- assign pub = pub_keyval[1] -%}
       <td>
-        <b><a href="pub_md/{{pub_keyval[0]}}.html" style="color: #464646">{{ pub.title }}</a></b><br/>
+        <b><a href="{{ '/pub_md/' | append: pub_keyval[0] | append: '.html' | relative_url }}" style="color: #464646">{{ pub.title }}</a></b><br/>
         {%- for author in pub.authors -%}
           {%- if forloop.last == true and forloop.length > 1 %}
             and
@@ -59,9 +59,13 @@ permalink: /publications/
 <table border="0">
   {% for pub_keyval in site.data.workshops %}
     <tr>
-      {%- assign pub = pub_keyval[1] -%}
+      {%- assign workshop = pub_keyval[1] -%}
+      {%- assign pub = workshop -%}
+      {%- if workshop.publication -%}
+        {%- assign pub = site.data.publications[workshop.publication] -%}
+      {%- endif -%}
       <td>
-        <b><a href="pub_md/{{pub_keyval[0]}}.html" style="color: #464646">{{ pub.title }}</a></b><br/>
+        <b><a href="{{ '/pub_md/' | append: pub_keyval[0] | append: '.html' | relative_url }}" style="color: #464646">{{ pub.title }}</a></b><br/>
         {%- for author in pub.authors -%}
           {%- if forloop.last == true and forloop.length > 1 %}
             and
@@ -75,20 +79,7 @@ permalink: /publications/
             ,
           {%- endif %}
         {%- endfor -%}<br/>
-        <i>{{ pub.venue }}
-        {%- if pub.venuenote %}
-        ({{ pub.venuenote }})
-        {%- endif -%}
-        {%- if pub.volume -%}
-        , Volume {{ pub.volume }}
-        {%- endif -%}
-        {%- if pub.issue -%}
-        , Issue {{ pub.issue }}
-        {%- endif -%}
-        </i>, {{ pub.month }} {{ pub.year }}<br/>
-        {%- if pub.award -%}
-          <span style="color:#0096FF"><b>{{ pub.award }}</b></span><br/>
-        {%- endif -%}
+        {% include workshop-appearances.html workshop=workshop %}
       </td>
       <td valign="top" width="20">
         {% if pub.pdf %}

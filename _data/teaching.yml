@@ -1,3 +1,10 @@
+ece18740fa26:
+  title: "18-740: Modern Computer Architecture and Design"
+  url: "https://cmu-ece18740.github.io"
+  month: "Fall"
+  year: "2026"
+  venue: "Carnegie Mellon University"
+
 cs143sp2324:
   title: "CS 143: Compilers"
   url: "https://cs143.stanford.edu"
@@ -37,4 +44,3 @@ ee16a:
   year: "2016-2017"
   month: "Fall"
   url: "https://inst.eecs.berkeley.edu/~ee16a/fa17"
-

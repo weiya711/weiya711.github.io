@@ -19,6 +19,14 @@ tags: publication
   <br/>
   <br/>
 
+  {% for workshop_keyval in site.data.workshops %}
+    {% assign workshop = workshop_keyval[1] %}
+    {% if workshop.publication == pub_key %}
+      <h2>Workshop appearances</h2>
+      {% include workshop-appearances.html workshop=workshop %}
+    {% endif %}
+  {% endfor %}
+
   <div class="post-content">
     <h2>Abstract</h2>
     <p>{{ pub.abstract }}</p>

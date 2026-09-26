@@ -70,6 +70,9 @@ ejjeh:
   site: https://www.linkedin.com/in/adel-ejjeh
 #F
 #G
+gao-steven:
+  name: Steven Gao
+
 grasset-arnaud:
   name: Arnaud Grasset
 
@@ -84,6 +87,14 @@ henry:
 hellsten:
   name: Erik Hellsten
 
+heo-guseul:
+  name: Guseul Heo
+  site: https://hbbr0312.github.io/
+
+hong-junwha:
+  name: Junwha Hong
+  site: https://junwha.github.io/
+
 horowitz:
   name: Mark Horowitz
   site: https://vlsi.stanford.edu/people/mark-horowitz
@@ -95,11 +106,20 @@ hossfeld-kons:
 #I
 
 #J
+jha-atindra:
+  name: Atindra Jha
+
 joseph-doug:
   name: Doug Joseph
   site: https://www.linkedin.com/in/doug-joseph-9894a71a/
 
 #K
+kamahori-keisuke:
+  name: Keisuke Kamahori
+
+kasikci-baris:
+  name: Baris Kasikci
+
 ke:
   name: Jake Ke
 
@@ -129,12 +149,19 @@ lacouture:
 lenfers:
   name: Johannes Lenfers
 
+leskovec-jure:
+  name: Jure Leskovec
+
 liangweixin:
   name: Weixin Liang
   site: https://ai.stanford.edu/~wxliang/
 
 liu:
   name: Qiaoyi Liu
+
+lubin-justin:
+  name: Justin Lubin
+  site: https://jlubin.net
 
 #M
 madhvapathy:
@@ -165,6 +192,9 @@ olukotun:
   site: http://arsenalfc.stanford.edu/kunle/
 
 #P
+park-jongse:
+  name: Jongse Park
+
 #Q
 #R
 raina:
@@ -190,6 +220,12 @@ rucker:
   site: https://www.linkedin.com/in/acrucker/
 
 #S
+sagan-naomi:
+  name: Naomi Sagan
+
+sanda-rohan:
+  name: Rohan Sanda
+
 sharma:
   name: Ritvik Sharma
   site: https://www.linkedin.com/in/ritvik-sharma-863090144/
@@ -197,6 +233,9 @@ sharma:
 siracusa-marco:
   name: Marco Siracusa
   site: https://www.linkedin.com/in/marco-siracusa-84a501187/
+
+sivgin-irmak:
+  name: Irmak Sivgin
 
 sobotka-nathan:
   name: Nathan Sobotka
@@ -240,8 +279,14 @@ tumushabe:
 #U
 #V
 #W
+wang-stephanie:
+  name: Stephanie Wang
+
 whinnery: 
   name: Jake Whinnery
+
+williams-evan:
+  name: Evan Williams
 
 won:
   name: Jaeyeon Won
@@ -259,10 +304,16 @@ yadav:
   name: Rohan Yadav
   site: https://rohany.github.io/
 
+ye-hyunsu:
+  name: Hyunsu Ye
+
 #Z
 zarkos:
   name: Panagiotis Zarkos
   site: https://www.linkedin.com/in/panagiotis-zarkos-0a51a7ba/
+
+zettlemoyer-luke:
+  name: Luke Zettlemoyer
 
 zhanggenghan:
   name: Genghan Zhang

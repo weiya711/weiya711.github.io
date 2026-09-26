@@ -1,0 +1,15 @@
+{% assign appearances = include.workshop.appearances %}
+{% unless appearances %}
+  {% assign appearances = "" | split: "," | push: include.workshop %}
+{% endunless %}
+{% for appearance in appearances %}
+  <div class="workshop-appearance">
+    {% if appearance.title %}<span>Presented as “{{ appearance.title | escape }}”</span><br/>{% endif %}
+    <i>{{ appearance.venue }}{% if appearance.venuenote %} ({{ appearance.venuenote }}){% endif %}{% if appearance.volume %}, Volume {{ appearance.volume }}{% endif %}{% if appearance.issue %}, Issue {{ appearance.issue }}{% endif %}</i>, {{ appearance.month }} {{ appearance.year }}
+    {% if appearance.award %}
+      <br/><span style="color:#0096FF"><b>{{ appearance.award }}</b></span>
+    {% endif %}
+    {% if appearance.url %}<br/><a href="{{ appearance.url }}">Workshop article</a>{% endif %}
+    {% if appearance.bibtex %}<details><summary>Workshop BibTeX</summary><pre>{{ appearance.bibtex }}</pre></details>{% endif %}
+  </div>
+{% endfor %}
